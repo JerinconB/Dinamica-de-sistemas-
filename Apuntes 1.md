@@ -106,7 +106,23 @@ La descomposición en fracciones parciales es de la forma como podemos ver en es
 
 $$G(s) = \frac{A s + B}{s^2 + b_1s + c_1} + \frac{C s + D}{s^2 + b_2s + c_2} + \dots + \frac{M s + N}{s^2 + b_n s + c_n}$$
 
+# Transformada inversa de Laplace método resumido
+Este método nos resulta más como ya que podemos aprovechar que para la descomposición en fracciones parciales se deben factorizar las raíces del polinomio del numerador esto nos ayuda a que se pueda saber los valores de ese que se van a eliminar en algunos términos, ayuda a reducir el sistema de ecuaciones para una mejor solución y un ahorro de tiempo a la hora de ejercicios largos los casos son los mismos 3 casos presentados anteriormente cada uno con una diferencia
+### Caso 1 – Raíces reales diferente 
+$$F(s) = \frac{A(s)}{B(s)} = \frac{a_1}{s + p_1} + \frac{a_2}{s + p_2} + \dots + \frac{a_n}{s + p_n}$$
 
+Gracias a este método y sabiendo que $ a_{k}$ son constantes entonces $ a_{k}$ puede hallarse multiplicando a ambos lados de la igualdad por el denominador de la función en este caso $ (s+p_{k})$ y debemos también garantizar que se eliminen ciertos parámetros para ello haremos qué $ s=-p_{k}$ con esto obtendremos el resultado de las constantes necesarias para la solución del sistema
+
+$$\left[ (s + p_k) \frac{A(s)}{B(s)} \right]_{s = -p_k} =
+\left[ \frac{a_1}{s + p_1} (s + p_k) + \frac{a_2}{s + p_2} (s + p_k) + \dots + \frac{a_k}{s + p_k} (s + p_k) + \dots + \frac{a_n}{s + p_n} (s + p_k) \right]_{s = -p_k}$$
+
+$$a_k = \left[ (s + p_k) \frac{A(s)}{B(s)} \right]_{s = -p_k}$$
+## Ejemplo 
+El siguiente ejemplo explica lo anteriormente mencionado en este caso nos piden la inversa de 
+
+$$F(s) = \frac{s+3}{(s+1)(s+2)}$$
+
+[![Imagen-de-Whats-App-2025-03-10-a-las-15-04-08-1dc80d8b.jpg](https://i.postimg.cc/nrP8SbZQ/Imagen-de-Whats-App-2025-03-10-a-las-15-04-08-1dc80d8b.jpg)](https://postimg.cc/5QLkjrXx)
 
 
 
