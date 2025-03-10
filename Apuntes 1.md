@@ -113,8 +113,7 @@ $$F(s) = \frac{A(s)}{B(s)} = \frac{a_1}{s + p_1} + \frac{a_2}{s + p_2} + \dots +
 
 Gracias a este método y sabiendo que $ a_{k}$ son constantes entonces $ a_{k}$ puede hallarse multiplicando a ambos lados de la igualdad por el denominador de la función en este caso $ (s+p_{k})$ y debemos también garantizar que se eliminen ciertos parámetros para ello haremos qué $ s=-p_{k}$ con esto obtendremos el resultado de las constantes necesarias para la solución del sistema
 
-$$\left[ (s + p_k) \frac{A(s)}{B(s)} \right]_{s = -p_k} =
-\left[ \frac{a_1}{s + p_1} (s + p_k) + \frac{a_2}{s + p_2} (s + p_k) + \dots + \frac{a_k}{s + p_k} (s + p_k) + \dots + \frac{a_n}{s + p_n} (s + p_k) \right]_{s = -p_k}$$
+$$\left[ (s + p_k) \frac{A(s)}{B(s)} \right]{s = -p_k} = \left[ \frac{a_1}{s + p_1} (s + p_k) + \frac{a_2}{s + p_2} (s + p_k) + \dots + \frac{a_k}{s + p_k} (s + p_k) + \dots + \frac{a_n}{s + p_n} (s + p_k) \right]$$
 
 $$a_k = \left[ (s + p_k) \frac{A(s)}{B(s)} \right]_{s = -p_k}$$
 ## Ejemplo 
