@@ -73,6 +73,40 @@ Para este tipo de entrada lo que observamos es una entrada tipo rampa la cual co
 
 [![image.png](https://i.postimg.cc/QtGBFwTs/image.png)](https://postimg.cc/kVsMZjsh)
 
+Al ser algo muy utilizado y el ya haberse realizado varios cálculos de las mismas podemos ver qué se estandarizó una tabla de transformadas ya que si las funciones son una combinación o una composición de varias funciones calcular la integrada No es tan complejo con respecto a unas ciertas modificaciones según el resultado de la ecuación la tabla es la siguiente
+
+[![image.png](https://i.postimg.cc/1tG8wBGF/image.png)](https://postimg.cc/sQ2fRp0f)
+
+## Transformada inversa de Laplace 
+Hallando  la transformada inversa de laplace tenemos que damos solución a los sistemas dinámicos o a los modelamientos correspondientes según el ejercicio por lo general la solución de esta se hace realizando una expansión en fracciones parciales para obtener una suma de funciones mucho más simple que se puedan encontrar en las tablas de la transformada para ello la descomposición de fracciones parciales consiste de varios casos
+### Caso 1 - Raíces reales distintas
+veremos que su expresión general es la siguiente
+
+$$G(s) = \frac{P(s)}{Q(s)} = \frac{P(S)}{(s + p_1)(s + p_2) \dots (s + p_n)} $$
+
+Teniendo que la descomposición en fracciones parciales es la siguiente ya que es un denominador el cual no se puede descomponer ni tiene grados correspondientes podremos hacerlo de la siguiente manera
+
+ $$G(s) = \frac{A}{(s + p_1)} + \frac{B}{(s + p_2)} + \dots + \frac{N}{(s + p_n)}$$
+
+Dónde A, B …. N son coeficientes por determinar
+### Caso 2 - Raíces reales repetidas
+hola en este caso veremos cómo cambia un poquito la ecuación general del sistema pues su denominador a pesar de ser simple y no poderse descomponer está elevado a un número
+
+$$G(s) = \frac{P(s)}{Q(s)} = \frac{P(S)}{(s + p)^n}$$
+
+Su descomposición en fracciones parciales es la siguiente pues al tener un exponente se divide el mismo denominador, pero cada una con un grado independiente, así como se ve a continuación
+
+$$G(s) = \frac{A}{(s + p)} + \frac{B}{(s + p)^2} + \dots + \frac{N}{(s + p)^n}$$
+### Caso 3 - Raíces complejas conjugadas
+Este tipo de fracciones parciales es un poquito más complejas pues se alarga un poco el procedimiento y su descomposición en fracciones parciales también es mayor pues se aumenta el número de coeficientes por determinar como podemos ver en la imagen dependemos mucho del denominador pues ya que si no se puede descomponer debemos trabajar con sus raíces complejas
+
+$$G(s) = \frac{P(s)}{Q(s)} = \frac{P(S)}{(s^2 + b_1s + c_1)(s^2 + b_2s + c_2) \dots (s^2 + b_n s + c_n)}$$
+
+La descomposición en fracciones parciales es de la forma como podemos ver en este caso el número de coeficientes por determinar es mayor pues dependemos de 2 numeradores por cada fracción
+
+$$G(s) = \frac{A s + B}{s^2 + b_1s + c_1} + \frac{C s + D}{s^2 + b_2s + c_2} + \dots + \frac{M s + N}{s^2 + b_n s + c_n}$$
+
+
 
 
 
