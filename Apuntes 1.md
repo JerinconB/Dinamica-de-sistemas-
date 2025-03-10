@@ -35,7 +35,7 @@ $$\frac{d^2x(t)}{dt^2} + (1 - \cos(2t)) x(t) = 0$$
 ### Ecuación no lineal variante en el tiempo
 $$\frac{d^2x(t)}{dt^2} + (x^2(t) - 1) \frac{dx(t)}{dt} + x(t) = 0$$
 ### Ecuación no lineal invariante en el tiempo
-$$\frac{d^2x(t)}{dt^2} + \frac{dx(t)}{dt} + x(t) + x^3(t) = \sen(\omega t)$$
+$$\frac{d^2x(t)}{dt^2} + \frac{dx(t)}{dt} + x(t) + x^3(t) = sen(\omega t)$$
 
 
 
