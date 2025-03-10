@@ -11,7 +11,9 @@ un sistema dinámico tiene por nombre ese ya que su salida en el presente depend
 
 ## Planta y proceso
 Estos 2 conceptos nos definen parte de lo físico que nos permita llevar a cabo un proceso ya que van de la mano tanto planta como proceso puede ser representado matemáticamente y puede ser también representado a través de uno o varios sisistemas ya que con esto podemos ver la secuencia de pasos que permite el desarrollo o fabricación de un objetivo o producto esto es muy utilizado en el área de control como sinónimo de desarrollo o proceso 
+
 ## Modelos dinámicos 
 en los modelos dinámicos lo que nos interesa en el tema de control es que allá una ecuación matemática que relacione las variables de interés con respecto al tiempo
+$$f(t)$$
 
 
