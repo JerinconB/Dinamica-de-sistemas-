@@ -37,6 +37,41 @@ $$\frac{d^2x(t)}{dt^2} + (x^2(t) - 1) \frac{dx(t)}{dt} + x(t) = 0$$
 ### Ecuación no lineal invariante en el tiempo
 $$\frac{d^2x(t)}{dt^2} + \frac{dx(t)}{dt} + x(t) + x^3(t) = sen(\omega t)$$
 
+## Influencia de parámetros 
+Según el sistema dinámico aunque nos encontremos tendremos y veremos una influencia en los parámetros del mismo así como diferentes comportamientos en este caso se analizará un comportamiento en el cual un sistema dinámico de masa resorte se deja oscilando libremente teniendo una onda sinusoidal sin prácticamente pérdidas
+
+[![image.png](https://i.postimg.cc/sDFWBB57/image.png)](https://postimg.cc/xqR8h1x1)
+
+Otra influencia puede ser si digamos el sistema está sumergido o tiene condiciones las cuales lo frenen en este caso es un líquido con una densidad muy grande la cual hace que el movimiento en este caso se ralentice bastante teniendo como resultado un decaimiento exponencial
+
+[![image.png](https://i.postimg.cc/xd7CW7RM/image.png)](https://postimg.cc/v1rbn0CZ)
+
+O a diferencia de los otros 2 podremos ver que siempre las condiciones van a ser diferentes en este caso bueno ver líquidos ciudades medias las cuales nos permitan ver una combinación entre ambas viendo impulso bastante grande al principio y terminando con una oscilación más pequeña hasta un punto final
+
+[![image.png](https://i.postimg.cc/W4QN9ZN7/image.png)](https://postimg.cc/SXfbRJzX)
+
+## Transformada de Laplace
+Ya que los sistemas dinámicos representan una complejidad a la hora de resolverse es necesario en ocasiones pasar del dominio del tiempo al dominio de la plaza esto con el fin de facilitar las operaciones resultantes de cada sistema hola continuación se representa cómo lo siguiente
+
+$$\mathbf{x(t)} \rightarrow \mathbf{X(s)}$$
+
+$$X(s) = \int_{0}^{\infty} x(t) \cdot e^{-s t} dt$$
+
+$$s = \alpha + j\omega$$
+
+Algunas de sus propiedades son las siguientes esto con el fin de que sea algo medianamente estandarizado para la solución
+
+[![image.png](https://i.postimg.cc/QMPQ0fKn/image.png)](https://postimg.cc/TyV5Pq9r)
+
+## Tipos de entrada para un sistema
+### Escalón unitario
+este tipo de entrada es una de las más comunes pues no entiende a variar sino más que todo en su principio a la hora de activarse o podemos ver de un tiempo cero y un tiempo inicial en el cual comienza la subida siendo sus valores de cero para cuando t es menor a cero y uno para cuando t es mayor a cero
+
+[![image.png](https://i.postimg.cc/L4kP19DW/image.png)](https://postimg.cc/MXTXk8h0)
+### Rampa 
+Para este tipo de entrada lo que observamos es una entrada tipo rampa la cual como su nombre lo indica tiene la forma de una rampa está dependerá hola de su pendiente y del valor el cual este definía hoy representación es la siguiente
+
+
 
 
 
