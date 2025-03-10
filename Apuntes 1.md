@@ -15,7 +15,28 @@ Estos 2 conceptos nos definen parte de lo físico que nos permita llevar a cabo 
 ## Modelos dinámicos 
 en los modelos dinámicos lo que nos interesa en el tema de control es que allá una ecuación matemática que relacione las variables de interés con respecto al tiempo $f(t)$
 
+Teniendo esto también debemos tener en cuenta que es necesario cuantificar cuánto cambian las variables de interés con respecto al tiempo para ello la función que más nos representa y se utilizará para el análisis de este tipo de modelos serán las derivadas
+
+$$\frac{df(t)}{dt}$$
+
+## Como lucen los modelos de ecuaciones diferenciales 
+Los modelos de ecuaciones diferenciales lucen de la siguiente manera son combinaciones lineales de derivadas con diferente orden siendo el grado uno del menor y así sucesivamente tienen un orden específico con unas constantes como podemos ver a continuación
+
+$$a_1 \frac{d^2 F}{dt^2} + a_2 \frac{dF}{dt} + a_3 F = u(t)$$
+
+Dónde F es la salida del sistema, U es la entrada del sistema dependiente del tiempo y la solución por lo general no es un número es una función dependiente también del tiempo
+
+## Características de una ecuación diferencial 
+Hay muchas características que definen a las ecuaciones diferenciales para ello veremos los casos más comunes y usados
+### Ecuación lineal invariante en el tiempo
 $$\frac{d^2x(t)}{dt^2} + 5 \frac{dx(t)}{dt} + 10x(t) = 0$$
+### Ecuación lineal variante en el tiempo
+$$\frac{d^2x(t)}{dt^2} + (1 - \cos(2t)) x(t) = 0$$
+### Ecuación no lineal variante en el tiempo
+$$\frac{d^2x(t)}{dt^2} + (x^2(t) - 1) \frac{dx(t)}{dt} + x(t) = 0$$
+### Ecuación no lineal invariante en el tiempo
+$$\frac{d^2x(t)}{dt^2} + \frac{dx(t)}{dt} + x(t) + x^3(t) = \sen(\omega t)$$
+
 
 
 
