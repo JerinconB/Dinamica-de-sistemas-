@@ -71,6 +71,9 @@ este tipo de entrada es una de las más comunes pues no entiende a variar sino m
 ### Rampa 
 Para este tipo de entrada lo que observamos es una entrada tipo rampa la cual como su nombre lo indica tiene la forma de una rampa está dependerá hola de su pendiente y del valor el cual este definía hoy representación es la siguiente
 
+[![image.png](https://i.postimg.cc/QtGBFwTs/image.png)](https://postimg.cc/kVsMZjsh)
+
+
 
 
 
