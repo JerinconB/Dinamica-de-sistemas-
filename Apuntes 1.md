@@ -90,7 +90,7 @@ Teniendo que la descomposición en fracciones parciales es la siguiente ya que e
 
 Dónde A, B …. N son coeficientes por determinar
 ### Caso 2 - Raíces reales repetidas
-hola en este caso veremos cómo cambia un poquito la ecuación general del sistema pues su denominador a pesar de ser simple y no poderse descomponer está elevado a un número
+En este caso veremos cómo cambia un poquito la ecuación general del sistema pues su denominador a pesar de ser simple y no poderse descomponer está elevado a un número
 
 $$G(s) = \frac{P(s)}{Q(s)} = \frac{P(S)}{(s + p)^n}$$
 
