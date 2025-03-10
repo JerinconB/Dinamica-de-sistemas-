@@ -123,7 +123,3 @@ $$F(s) = \frac{s+3}{(s+1)(s+2)}$$
 
 [![Imagen-de-Whats-App-2025-03-10-a-las-15-04-08-1dc80d8b.jpg](https://i.postimg.cc/nrP8SbZQ/Imagen-de-Whats-App-2025-03-10-a-las-15-04-08-1dc80d8b.jpg)](https://postimg.cc/5QLkjrXx)
 
-
-
-
-
