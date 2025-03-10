@@ -14,6 +14,9 @@ Estos 2 conceptos nos definen parte de lo físico que nos permita llevar a cabo 
 
 ## Modelos dinámicos 
 en los modelos dinámicos lo que nos interesa en el tema de control es que allá una ecuación matemática que relacione las variables de interés con respecto al tiempo
+
 $$f(t)$$
+
+
 
 
