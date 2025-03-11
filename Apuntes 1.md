@@ -123,3 +123,19 @@ $$F(s) = \frac{s+3}{(s+1)(s+2)}$$
 
 [![Imagen-de-Whats-App-2025-03-10-a-las-15-04-08-1dc80d8b.jpg](https://i.postimg.cc/nrP8SbZQ/Imagen-de-Whats-App-2025-03-10-a-las-15-04-08-1dc80d8b.jpg)](https://postimg.cc/5QLkjrXx)
 
+## Caso 2 – raíces reales iguales 
+Cómo se había explicado anteriormente para la solución de ecuaciones usando el método de fracciones parciales en este caso veremos que el denominador es una ecuación que está elevado a un número, para hallar la solución utilizando el método resumido es prácticamente igual al del caso uno con el método reducido simplemente es tener en cuenta el exponente y acomodarlo de la siguiente forma
+
+$$F(s) = \frac{s^2 + 2s + 3}{(s+1)^3}$$
+
+$$F(s) = \frac{A(s)}{B(s)} = \frac{b_3}{(s+1)^3} + \frac{b_2}{(s+1)^2} + \frac{b_1}{s+1}$$
+
+$$(s+1)^3 \frac{A(s)}{B(s)} = b_3 + b_2(s+1) + b_1(s+1)^2$$
+
+Tomando $s=-1$ garantizaremos que se eliminen ciertas constantes para así poder hallar los coeficientes necesarios para la solución entonces el término se deriva y evalúa sobre $s=-1$ la cantidad de derivadas se irá según el Exponente a mayor sea el número del exponente asimismo la cantidad de derivadas
+
+$$\frac{d}{ds} \left[ (s+1)^3 \frac{A(s)}{B(s)} \right] = b_2 + 2b_1 (s+1)$$
+
+$$\frac{d}{ds} \left[ (s+1)^3 \frac{A(s)}{B(s)} \right] \Big|_{s=-1} = b_2$$
+
+$$\frac{d^2}{ds^2} \left[ (s+1)^3 \frac{A(s)}{B(s)} \right] = 2b_1$$
