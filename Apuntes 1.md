@@ -202,7 +202,7 @@ $$F(t) = \mathcal{L}^{-1} [F(s)]$$
 
 $$= 5\mathcal{L}^{-1} \left[ \frac{2}{(s+1)^2 + 2^2} \right]+ 2\mathcal{L}^{-1} \left[ \frac{s+1}{(s+1)^2 + 2^2} \right]$$
 
-$$= 5e^{-t} \sin 2t + 2e^{-t} \cos 2t \quad (t \geq 0)$$
+$$= 5e^{-t} sin 2t + 2e^{-t} \cos 2t \quad (t \geq 0)$$
 
 ## Fracciones parciales en Matlab 
 Una de las maneras más fáciles y certeras de garantizar una buena respuesta a la hora de resolver los ejercicios es comprobándolas en la plataforma de m Matlab ya que ella puede calcular los términos de las fracciones parciales conociendo los polinomios del denominador y el numerador de las funciones en el dominio de s, esto lo lograremos por medio de códigos es un código estructurado el cual se realizará para la solución de los ejercicios y para que me Matlab lo entienda
@@ -210,6 +210,7 @@ Una de las maneras más fáciles y certeras de garantizar una buena respuesta a 
 [![image.png](https://i.postimg.cc/VvzjY4T4/image.png)](https://postimg.cc/r0YdjGqt)
 
 [![image.png](https://i.postimg.cc/XJkCDdJ5/image.png)](https://postimg.cc/zb3vyLTD)
+
 Definiremos unas variables teniendo en cuenta que la función es la siguiente y as queda con sus coeficientes 
 
 $$F(s) = \frac{s^2 - s - 3}{s(s-1)(s+3)} = \frac{0.75}{s-3} - \frac{0.75}{s+1} + \frac{1}{s}$$
