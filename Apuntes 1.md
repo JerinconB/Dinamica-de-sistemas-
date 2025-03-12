@@ -292,7 +292,7 @@ $$X(s) = \frac{5s}{s^2 + 4}$$
 
 Al tener esta expresión nos damos cuenta de que se puede hacer la transformada inversa directamente ya que vemos es muy parecida a una de las transformadas de la tabla de Laplace simplemente pasaremos el 5 que es una constante fuera de la transformada quedando de la siguiente manera
 
-$$5\mathcal{L}^{-1} \left\{ \frac{s}{s^2 + 4} \right\}$$
+$$5 \mathcal{L}^{-1} \{ \frac{s}{s^2 + 4} \}$$
 
 Teniendo esto podremos dar solución al ejercicio según la tabla nos quedaría de la siguiente forma
 
