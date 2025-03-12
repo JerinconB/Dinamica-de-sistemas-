@@ -108,7 +108,7 @@ $$G(s) = \frac{A s + B}{s^2 + b_1s + c_1} + \frac{C s + D}{s^2 + b_2s + c_2} + \
 
 # Transformada inversa de Laplace método resumido
 Este método nos resulta más como ya que podemos aprovechar que para la descomposición en fracciones parciales se deben factorizar las raíces del polinomio del numerador esto nos ayuda a que se pueda saber los valores de ese que se van a eliminar en algunos términos, ayuda a reducir el sistema de ecuaciones para una mejor solución y un ahorro de tiempo a la hora de ejercicios largos los casos son los mismos 3 casos presentados anteriormente cada uno con una diferencia
-### Caso 1 – Raíces reales diferente 
+## Caso 1 – Raíces reales diferente 
 $$F(s) = \frac{A(s)}{B(s)} = \frac{a_1}{s + p_1} + \frac{a_2}{s + p_2} + \dots + \frac{a_n}{s + p_n}$$
 
 Gracias a este método y sabiendo que $ a_{k}$ son constantes entonces $ a_{k}$ puede hallarse multiplicando a ambos lados de la igualdad por el denominador de la función en este caso $ (s+p_{k})$ y debemos también garantizar que se eliminen ciertos parámetros para ello haremos qué $ s=-p_{k}$ con esto obtendremos el resultado de las constantes necesarias para la solución del sistema
@@ -123,7 +123,7 @@ $$F(s) = \frac{s+3}{(s+1)(s+2)}$$
 
 [![Imagen-de-Whats-App-2025-03-10-a-las-15-04-08-1dc80d8b.jpg](https://i.postimg.cc/nrP8SbZQ/Imagen-de-Whats-App-2025-03-10-a-las-15-04-08-1dc80d8b.jpg)](https://postimg.cc/5QLkjrXx)
 
-## Caso 2 – raíces reales iguales 
+## Caso 2 – Raíces reales iguales 
 Cómo se había explicado anteriormente para la solución de ecuaciones usando el método de fracciones parciales en este caso veremos que el denominador es una ecuación que está elevado a un número, para hallar la solución utilizando el método resumido es prácticamente igual al del caso uno con el método reducido simplemente es tener en cuenta el exponente y acomodarlo de la siguiente forma
 
 $$F(s) = \frac{s^2 + 2s + 3}{(s+1)^3}$$
@@ -139,3 +139,26 @@ $$\frac{d}{ds} \left[ (s+1)^3 \frac{A(s)}{B(s)} \right] = b_2 + 2b_1 (s+1)$$
 $$\frac{d}{ds} \left[ (s+1)^3 \frac{A(s)}{B(s)} \right] \Big|_{s=-1} = b_2$$
 
 $$\frac{d^2}{ds^2} \left[ (s+1)^3 \frac{A(s)}{B(s)} \right] = 2b_1$$
+
+Una vez teniéndo lo anterior mencionado podremos seguir derivando para así tener los términos de $b_{1}$,$b_{2}$ y $b_{3}$ que necesitamos teniendo lo siguiente 
+
+$$ b_1 = \frac{1}{2!} \left[ \frac{d^2}{ds^2} \left( (s+1)^3 \frac{A(s)}{B(s)} \right) \right]_{s=-1} $$
+ 
+$$ = \frac{1}{2!} \left[ \frac{d^2}{ds^2} (s^2 + 2s + 3) \right]_{s=-1} $$
+
+$$ = \frac{1}{2} (2) = 1 $$
+Y así mismo ya se nos facilitan los cálculos tanto para $b_{2}$ y $b_{3}$ teniendo lo siguiente
+### Cálculo para $b_{3}$
+$$ b_3 = \left[ (s+1)^3 \frac{A(s)}{B(s)} \right]_{s=-1} $$
+$$ = \left( s^2 + 2s + 3 \right)_{s=-1} $$
+$$ = 2 $$
+### Cálculo para $b_{2}$
+$$ b_2 = \left\{ \frac{d}{ds} \left[ (s+1)^3 \frac{A(s)}{B(s)} \right] \right\}_{s=-1} $$
+$$ = \left[ \frac{d}{ds} (s^2 + 2s + 3) \right]_{s=-1} $$
+$$ = \left( 2s + 2 \right)_{s=-1} $$
+$$ = 0 $$
+Teniendo así que la respuesta del sistema al hallar los coeficientes y el realizar la transformada inversa de la plaza nos da como resultado la siguiente ecuación
+$$ f(t) = \mathcal{L}^{-1} [F(s)] $$
+$$ = \mathcal{L}^{-1} \left[ \frac{2}{(s+1)^3} \right] + \mathcal{L}^{-1} \left[ \frac{0}{(s+1)^2} \right] + \mathcal{L}^{-1} \left[ \frac{1}{s+1} \right] $$
+$$ = t^2 e^{-t} + 0 + e^{-t} $$
+$$ = (t^2 + 1)e^{-t}, \quad (t \geq 0) $$
