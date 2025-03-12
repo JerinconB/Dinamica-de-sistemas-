@@ -298,3 +298,45 @@ $$5 \mathcal{L}^{-1} \{ \frac{s}{s^2 + 4} \}$$
 Teniendo esto podremos dar solución al ejercicio según la tabla nos quedaría de la siguiente forma
 
 $$x(t) = 5 \cos(2t)$$
+
+### 2)
+$$F_2(s) = \frac{3(s+4)}{s(s+1)(s+2)}$$
+
+Comenzaremos el ejercicio analizando el tipo de caso para su solucion por medio de fracciones parciales, como podemos ver el ejercicio cumple el caso 1 lo cual deberremos hallar los coeficientes de A,B y C la ecuacion quedaria de la sigiente manera 
+
+$$\frac{3(s+4)}{s(s+1)(s+2)} = \frac{A}{s} + \frac{B}{s+1} + \frac{C}{s+2}$$
+
+Multiplicaremos por el denominador común y solucionaremos cada paréntesis esto igualado al numerador para después generar el sistema de ecuaciones para dar
+solución A,B y C.
+
+$$3(s+4) = A(s+1)(s+2) + B(s+2)s + C(s+1)s$$
+
+$$3s + 12 = A(s^2 + 3s + 2) + B(s^2 + 2s) + C(s^2 + s)$$
+
+Agruparemos terminos de s de mayor a menor exponente 
+
+$$3s + 12 = (A + B + C)s^2 + (3A + 2B + C)s + 2A$$
+
+Una vez con esto podremos ser capaces de generar un sistema de ecuaciones el cual nos ayude a encontrar los coeficientes que estamos hallando 
+
+$$A + B + C = 0$$
+
+$$3A + 2B + C = 3$$
+
+$$2A = 12 \Rightarrow A = 6$$
+
+Con el sistema de ecuaciones y habiendo solucionado A pasaremos a remplazar em el resto de ecuaciones, para ello debemos remplazar primero dos ecuaciones las cuales nos queden enterminos de B y C para igualarlas la primera es
+
+$$6 + B + C = 0 \Rightarrow B + C = -6$$
+
+la segunda nos ayudaremos con el remplazo de A 
+
+$$3(6) + 2B + C = 3$$
+
+$$18 + 2B + C = 3$$
+
+Con estas dos ecuacione spodremos igualar y hallar C
+
+
+
+
