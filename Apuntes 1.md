@@ -244,4 +244,23 @@ Se representa de una manera diferente a lo ya visto anterior mente pero es mas q
 ### Ejemplo 
 $$\dot{x} + 3\dot{x} + 2x = 0, \quad x(0) = a, \quad \dot{x}(0) = b$$
 
+Aplicaremos Laplace ala ecuacion teniendo lo siguiente 
+
+$$[s^2X(s) - s x(0) - \dot{x}(0)] + 3[sX(s) - x(0)] + 2X(s) = 0$$
+
+Una vez con esto podremos remplazar las condiciones iniciales para asi poder despejar x
+
+$$[s^2X(s) - as - b] + 3[sX(s) - a] + 2X(s) = 0$$
+
+Despejando x tendriamos que 
+
+$$(s^2 + 3s + 2)X(s) = as + b + 3a$$
+
+$$X(s) = \frac{as + b + 3a}{s^2 + 3s + 2} = \frac{as + b + 3a}{(s+1)(s+2)} = \frac{2a + b}{s+1} - \frac{a + b}{s+2}$$
+
+Con este despeje podremos buscar en las tablas Laplace la solucion mas adecuada 
+
+$$x(t) = \mathcal{L}^{-1}[X(s)] = \mathcal{L}^{-1} \left[ \frac{2a + b}{s+1} \right] - \mathcal{L}^{-1} \left[ \frac{a + b}{s+2} \right]$$
+
+$$= (2a + b)e^{-t} - (a + b)e^{-2t} \quad (t \geq 0)$$
 
