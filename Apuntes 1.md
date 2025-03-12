@@ -270,3 +270,30 @@ $$= (2a + b)e^{-t} - (a + b)e^{-2t} \quad (t \geq 0)$$
 $$\dot{x} + 4x = 0, \quad x(0) = 5, \quad \dot{x}(0) = 0$$
 
 Para la solución del ejercicio es necesario pasar la ecuación a Laplace para facilitar el desarrollo de los cálculos quedando así de la siguiente forma.
+
+$$[s^2X(s) - s x(0) - \dot{x}(0)] + 4X(s) = 0$$
+
+Una vez pasada la ecuación en forma de la plaza pasaremos a reemplazar las condiciones iniciales
+
+$$s^2X(s) - 5s - 0 + 4X(s) = 0$$
+
+Distribuyendo mejor los parámetros de la ecuación y teniendo en un lado términos de
+$X(s)$ y al otro lado términos de 𝑠 tendremos.
+
+$$s^2X(s) + 4X(s) = 5s$$
+
+Agrupando términos semejantes y despejando $X(s)$ tendríamos
+
+$$X(s)(s^2 + 4) = 5s$$
+
+Acto seguido debemos despejar $X(s)$
+
+$$X(s) = \frac{5s}{s^2 + 4}$$
+
+Al tener esta expresión nos damos cuenta de que se puede hacer la transformada inversa directamente ya que vemos es muy parecida a una de las transformadas de la tabla de Laplace simplemente pasaremos el 5 que es una constante fuera de la transformada quedando de la siguiente manera
+
+$$5\mathcal{L}^{-1} \left\{ \frac{s}{s^2 + 4} \right\}$$
+
+Teniendo esto podremos dar solución al ejercicio según la tabla nos quedaría de la siguiente forma
+
+$$x(t) = 5 \cos(2t)$$
