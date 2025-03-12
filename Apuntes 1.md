@@ -215,3 +215,25 @@ Definiremos unas variables teniendo en cuenta que la función es la siguiente y 
 
 $$F(s) = \frac{s^2 - s - 3}{s(s-1)(s+3)} = \frac{0.75}{s-3} - \frac{0.75}{s+1} + \frac{1}{s}$$
 
+Gracias a esta aplicación también podremos realizar la transformada inversa de la plaza o la transformada normal en este caso tenemos la transformada y la queremos pasar al dominio de ese para ello haríamos lo siguiente, la ecuación es la siguiente 
+
+$$8\sin(4t) - 5\cos(4t)$$
+Una vez teniendo la ecuación que queremos el desarrollo para hacerlo en Matlab nos quedaría así
+
+[![image.png](https://i.postimg.cc/ydDFWkY3/image.png)](https://postimg.cc/DJKWMfG7)
+
+Con esto podemos verificar y dar valores a la respuesta teniendo 
+
+$$\mathcal{L} \{ 8\sin(4t) - 5\cos(4t) \} = \frac{32}{s^2 + 16} - \frac{5s}{s^2 + 16}$$
+
+Algo muy parecido es a la hora de realizar la transformada inversa de laplace para ello debemos formular una ecuación y realizar unos pasos muy parecidos a los anteriores para en este caso darle una solución, la ecuación es la siguiente
+
+$$Y(s) = \frac{6s - 4}{s^2 + 4s + 20}$$
+
+una vez con la ecuación pasaremos a hacer el paso a paso en Matlab
+
+[![image.png](https://i.postimg.cc/NFYfSzVG/image.png)](https://postimg.cc/ZB7SyV4X)
+
+una vez hecho los pasos en Matlab veremos las respuestas y podremos entonces dar solución teniendo que
+
+$$\mathcal{L}^{-1} \left\{ \frac{6s - 4}{s^2 + 4s + 20} \right\} = 6e^{-2t} \cos(4t) - 4e^{-2t} \sen(4t)$$
