@@ -186,7 +186,7 @@ $$ s^2 + 2s + 5 = (s + 1 + j2)(s + 1 - j2) $$
 
 sabiendo que este tipo de raíces resulta en una suma de una función seno amortiguada con coseno amortiguado esto lo podemos encontrar fácilmente en la tabla de la plaza para ello siempre debemos sumar y restar para poder así acomodar las ecuaciones
 
-$$\mathcal{L}[e^{-\alpha t} \sen \omega t] = \frac{\omega}{(s + \alpha)^2 + \omega^2}$$
+$$\mathcal{L}[e^{-\alpha t} \sin \omega t] = \frac{\omega}{(s + \alpha)^2 + \omega^2}$$
 
 $$\mathcal{L}[e^{-\alpha t} \cos \omega t] = \frac{s + \alpha}{(s + \alpha)^2 + \omega^2}$$
 
@@ -202,7 +202,7 @@ $$F(t) = \mathcal{L}^{-1} [F(s)]$$
 
 $$= 5\mathcal{L}^{-1} \left[ \frac{2}{(s+1)^2 + 2^2} \right]+ 2\mathcal{L}^{-1} \left[ \frac{s+1}{(s+1)^2 + 2^2} \right]$$
 
-$$= 5e^{-t} sin 2t + 2e^{-t} \cos 2t \quad (t \geq 0)$$
+$$= 5e^{-t} \sin 2t + 2e^{-t} \cos 2t \quad (t \geq 0)$$
 
 ## Fracciones parciales en Matlab 
 Una de las maneras más fáciles y certeras de garantizar una buena respuesta a la hora de resolver los ejercicios es comprobándolas en la plataforma de m Matlab ya que ella puede calcular los términos de las fracciones parciales conociendo los polinomios del denominador y el numerador de las funciones en el dominio de s, esto lo lograremos por medio de códigos es un código estructurado el cual se realizará para la solución de los ejercicios y para que me Matlab lo entienda
