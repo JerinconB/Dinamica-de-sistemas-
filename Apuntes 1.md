@@ -159,7 +159,7 @@ $$ = 2 $$
 
 ### Cálculo para $b_{2}$
 
-$$ b_2 = \left\{ \frac{d}{ds} \left[ (s+1)^3 \frac{A(s)}{B(s)} \right] \right\}_{s=-1} $$
+$$ b_2 = \frac{d}{ds} \left[ (s+1)^3 \frac{A(s)}{B(s)} \right] \bigg|_{s=-1} $$
 
 $$ = \left[ \frac{d}{ds} (s^2 + 2s + 3) \right]_{s=-1} $$
 
