@@ -335,8 +335,20 @@ $$3(6) + 2B + C = 3$$
 
 $$18 + 2B + C = 3$$
 
+$$2B + C = -15$$
+
 Con estas dos ecuacione spodremos igualar y hallar C
 
+$$(2B + C) - (B + C) = -15 + 6$$
 
+$$B = -9$$
 
+$$C = -6 - (-9) = 3$$
 
+Una vez obtenido los resultados de A B y C ahora podremos reemplazar en las fracciones parciales para hallar la transformada inversa para ello quedaría de la siguiente forma
+
+$$\mathcal{L}^{-1} \left( \frac{6}{s} \right) = 6$$
+
+$$\mathcal{L}^{-1} \left( \frac{-9}{s+1} \right) = -9e^{-t}$$
+
+$$\mathcal{L}^{-1} \left( \frac{3}{s+2} \right) = 3e^{-2t}$$
