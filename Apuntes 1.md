@@ -352,3 +352,7 @@ $$\mathcal{L}^{-1} \left( \frac{6}{s} \right) = 6$$
 $$\mathcal{L}^{-1} \left( \frac{-9}{s+1} \right) = -9e^{-t}$$
 
 $$\mathcal{L}^{-1} \left( \frac{3}{s+2} \right) = 3e^{-2t}$$
+
+Con estos resultados podremos dar solución al ejercicio obteniendo la siguiente función atraves del tiempo 
+
+$$f_2(t) = 6 - 9e^{-t} + 3e^{-2t}$$
