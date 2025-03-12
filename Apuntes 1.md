@@ -1,3 +1,5 @@
+# Apuntes Dinamica de sistemas 1 corte
+### Rincon Benavides Juan Esteban
 # Dinámica de sistemas 
 ## Sistema 
 Sistema está definido como la combinación de componentes que al actuar conjuntamente alcanzan un objetivo específico la combinación de los mismos se puede representar por medio de reglas y principios simples que relacionan las salidas con las entradas del sistema esto se puede representar con un diagrama muy sencillo
@@ -264,3 +266,4 @@ $$x(t) = \mathcal{L}^{-1}[X(s)] = \mathcal{L}^{-1} \left[ \frac{2a + b}{s+1} \ri
 
 $$= (2a + b)e^{-t} - (a + b)e^{-2t} \quad (t \geq 0)$$
 
+### Ejercicios 
