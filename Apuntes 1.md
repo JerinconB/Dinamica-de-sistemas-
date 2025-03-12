@@ -236,5 +236,6 @@ una vez con la ecuación pasaremos a hacer el paso a paso en Matlab
 
 una vez hecho los pasos en Matlab veremos las respuestas y podremos entonces dar solución teniendo que
 
-$$\mathcal{L}^{-1} \left\{ \frac{6s - 4}{s^2 + 4s + 20} \right\} = 6e^{-2t} \cos(4t) - 4e^{-2t} \sen(4t)$$
+\[\mathcal{L}^{-1} \left\{ \frac{6s - 4}{s^2 + 4s + 20} \right\} = 6e^{-2t} \cos(4t) - 4e^{-2t} \sen(4t)\]
+
 
