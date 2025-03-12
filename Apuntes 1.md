@@ -238,5 +238,10 @@ una vez hecho los pasos en Matlab veremos las respuestas y podremos entonces dar
 
 $$\mathcal{L}^{-1} \{ \frac{6s - 4}{s^2 + 4s + 20} \} = 6e^{-2t} \cos(4t) - 4e^{-2t} sen(4t)$$
 
+# Solucion de ecuaciones diferenciales 
+## Metodologia de solucion 
+Se representa de una manera diferente a lo ya visto anterior mente pero es mas que todo solo la representacion de la ecuacion, se debe aplicar transformada de Laplace a toda la ecuacion parte por parte de tal manera que se tenga una ecuacion en terminos de la variable $s$, al despejar la variable tendremos como resultado una ecuacion que representa la salida en terminos de $X(s)$ una ves con esto en necesario aplicar transformada inversa de Laplace para optener la solucion en el dominio del tiempo
+### Ejemplo 
+$$\dot{x} + 3\dot{x} + 2x = 0, \quad x(0) = a, \quad \dot{x}(0) = b$$
 
 
