@@ -176,3 +176,41 @@ $$ = \mathcal{L}^{-1} \left[ \frac{2}{(s+1)^3} \right] + \mathcal{L}^{-1} \left[
 $$ = t^2 e^{-t} + 0 + e^{-t} $$
 
 $$ = (t^2 + 1)e^{-t}, \quad (t \geq 0) $$
+
+## Caso 3 – Raíces complejas conjugadas 
+Para el caso 3 la parte de solución de fracciones raíces por métodos resumidos Veremos que forma prácticamente de la misma manera más sin embargo pues las raíces son complejas eso quiere decir que nos regala en su determinante un número imaginario como se puede ver en el siguiente ejemplo
+
+$$ F(s) = \frac{2s + 12}{s^2 + 2s + 5} $$
+
+$$ s^2 + 2s + 5 = (s + 1 + j2)(s + 1 - j2) $$
+
+sabiendo que este tipo de raíces resulta en una suma de una función seno amortiguada con coseno amortiguado esto lo podemos encontrar fácilmente en la tabla de la plaza para ello siempre debemos sumar y restar para poder así acomodar las ecuaciones
+
+$$\mathcal{L}[e^{-\alpha t} \sen \omega t] = \frac{\omega}{(s + \alpha)^2 + \omega^2}$$
+
+$$\mathcal{L}[e^{-\alpha t} \cos \omega t] = \frac{s + \alpha}{(s + \alpha)^2 + \omega^2}$$
+
+A continuación se verá un ejemplo de cómo se puede solucionar y cómo se pueden completar los cuadrados en este caso sumamos y restamos el número cuatro esto con el fin de acomodar el denominador y que así pueda ser consecuente con la tabla de las transformadas inversas de la plaza
+
+$$F(s) = \frac{2s + 12}{s^2 + 2s + 5} = \frac{2s + 12}{s^2 + 2s + 5 - 4 + 4}$$
+
+$$F(s) = \frac{2s + 12}{(s + 1)^2 + 2^2}$$
+
+$$F(s) = \frac{10 + 2(s + 1)}{(s + 1)^2 + 2^2} = \frac{5}{(s + 1)^2 + 2^2} + \frac{2}{(s + 1)^2 + 2^2} (s + 1)$$
+
+$$F(t) = \mathcal{L}^{-1} [F(s)]$$
+
+$$= 5\mathcal{L}^{-1} \left[ \frac{2}{(s+1)^2 + 2^2} \right]+ 2\mathcal{L}^{-1} \left[ \frac{s+1}{(s+1)^2 + 2^2} \right]$$
+
+$$= 5e^{-t} \sin 2t + 2e^{-t} \cos 2t \quad (t \geq 0)$$
+
+## Fracciones parciales en Matlab 
+Una de las maneras más fáciles y certeras de garantizar una buena respuesta a la hora de resolver los ejercicios es comprobándolas en la plataforma de m Matlab ya que ella puede calcular los términos de las fracciones parciales conociendo los polinomios del denominador y el numerador de las funciones en el dominio de s, esto lo lograremos por medio de códigos es un código estructurado el cual se realizará para la solución de los ejercicios y para que me Matlab lo entienda
+
+[![image.png](https://i.postimg.cc/VvzjY4T4/image.png)](https://postimg.cc/r0YdjGqt)
+
+[![image.png](https://i.postimg.cc/XJkCDdJ5/image.png)](https://postimg.cc/zb3vyLTD)
+Definiremos unas variables teniendo en cuenta que la función es la siguiente y as queda con sus coeficientes 
+
+$$F(s) = \frac{s^2 - s - 3}{s(s-1)(s+3)} = \frac{0.75}{s-3} - \frac{0.75}{s+1} + \frac{1}{s}$$
+
