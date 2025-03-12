@@ -147,18 +147,32 @@ $$ b_1 = \frac{1}{2!} \left[ \frac{d^2}{ds^2} \left( (s+1)^3 \frac{A(s)}{B(s)} \
 $$ = \frac{1}{2!} \left[ \frac{d^2}{ds^2} (s^2 + 2s + 3) \right]_{s=-1} $$
 
 $$ = \frac{1}{2} (2) = 1 $$
+
 Y así mismo ya se nos facilitan los cálculos tanto para $b_{2}$ y $b_{3}$ teniendo lo siguiente
+
 ### Cálculo para $b_{3}$
 $$ b_3 = \left[ (s+1)^3 \frac{A(s)}{B(s)} \right]_{s=-1} $$
+
 $$ = \left( s^2 + 2s + 3 \right)_{s=-1} $$
+
 $$ = 2 $$
+
 ### Cálculo para $b_{2}$
+
 $$ b_2 = \left\{ \frac{d}{ds} \left[ (s+1)^3 \frac{A(s)}{B(s)} \right] \right\}_{s=-1} $$
+
 $$ = \left[ \frac{d}{ds} (s^2 + 2s + 3) \right]_{s=-1} $$
+
 $$ = \left( 2s + 2 \right)_{s=-1} $$
+
 $$ = 0 $$
+
 Teniendo así que la respuesta del sistema al hallar los coeficientes y el realizar la transformada inversa de la plaza nos da como resultado la siguiente ecuación
+
 $$ f(t) = \mathcal{L}^{-1} [F(s)] $$
+
 $$ = \mathcal{L}^{-1} \left[ \frac{2}{(s+1)^3} \right] + \mathcal{L}^{-1} \left[ \frac{0}{(s+1)^2} \right] + \mathcal{L}^{-1} \left[ \frac{1}{s+1} \right] $$
+
 $$ = t^2 e^{-t} + 0 + e^{-t} $$
+
 $$ = (t^2 + 1)e^{-t}, \quad (t \geq 0) $$
