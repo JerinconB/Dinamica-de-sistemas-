@@ -267,6 +267,6 @@ $$x(t) = \mathcal{L}^{-1}[X(s)] = \mathcal{L}^{-1} \left[ \frac{2a + b}{s+1} \ri
 $$= (2a + b)e^{-t} - (a + b)e^{-2t} \quad (t \geq 0)$$
 
 ### Ejercicios 
+$$\dot{x} + 4x = 0, \quad x(0) = 5, \quad \dot{x}(0) = 0$$
 
-
-![image](https://github.com/user-attachments/assets/3710958a-62ee-470e-b67b-52ba863ef9f1)
+Para la solución del ejercicio es necesario pasar la ecuación a Laplace para facilitar el desarrollo de los cálculos quedando así de la siguiente forma.
