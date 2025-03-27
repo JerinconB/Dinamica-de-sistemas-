@@ -1,12 +1,8 @@
 # Apuntes Dinamica de Sistemas 2 Corte 
 ### Rincon Benavides Juan Esteban 
-$$
-2\ddot{x} + 2\dot{x} + x = 1
-$$
+$$2\ddot{x} + 2\dot{x} + x = 1$$
 
-$$
-X(0) = 0, \quad \dot{X}(0) = 2
-$$
+$X(0) = 0, \quad \dot{X}(0) = 2$
 
 $$
 -s^2 X(s) + sX(0) - \dot{X}(0) + [sX(s) - X(0)] + X(s) = \frac{1}{2s}
