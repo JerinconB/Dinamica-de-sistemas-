@@ -25,3 +25,7 @@ $$4s + 1 = A s^2 + A s + \frac{A}{2} + 2 B s^2 + 2 C s$$
 
 $$4s + 1 = (A + 2B)s^2 + (A + 2C)s + \frac{A}{2}$$
 
+Una vez hallado los desprecia ecuaciones correspondientes con esto podremos hallar e encontrar los valores de A B Y C teniendo las siguientes ecuaciones
+
+
+
