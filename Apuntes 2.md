@@ -1,5 +1,6 @@
 # Apuntes Dinamica de Sistemas 2 Corte 
 ### Rincon Benavides Juan Esteban 
+## Correccion primer parcial 
 Para el primer punto del parcial nos presenta la siguiente ecuación la cual deberemos solucionar según las condiciones iniciales determinadas en este mismo 
 
 $$2\ddot{x} + 2\dot{x} + x = 1$$
