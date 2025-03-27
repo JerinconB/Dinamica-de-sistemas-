@@ -11,7 +11,7 @@ Una vez con esto pasaremos a la solución del primer punto del parcial teniendo 
 
 $$-s^2 X(s) + sX(0) - \dot{X}(0) + [sX(s) - X(0)] + X(s) = \frac{1}{2s}$$
 
-$$-s^2 X(s) + 2 + sX(s) + X(s) = \frac{1}{2s}$$
+$$-s^2 X(s) - 2 + sX(s) + X(s) = \frac{1}{2s}$$
 
 $$X(s)(s^2 + s + \frac{1}{2}) = \frac{1}{2s} + 2$$
 
