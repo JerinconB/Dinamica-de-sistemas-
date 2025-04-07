@@ -116,10 +116,11 @@ $$17A = 60$$
 
 $$A = \frac{60}{17}$$
 
+Teniendo A ya podremos hallar B y C teniendo que para B es 
 
+$$B = -A$$
 
-
-
+$$B = -\frac{60}{17}$
 
 
 
