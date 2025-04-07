@@ -138,6 +138,8 @@ Teniendo como resultado en la transformada lo sigiente
 
 $$f(s) = \frac{24}{17} \delta(t) + \frac{1}{17} \left[ -60 e^{2t} \cos(2t) + 72 e^{2t} \sin(2t) \right]$$
 
+# Sistemas Mecanicos 
+### 26/03/2025
 
 
 
