@@ -69,6 +69,8 @@ Para el segundo punto del ejercicio del parcial deberemos hallar $f(s)$ la ecuac
 
 $$F(s) = \frac{6s}{\left(s - \frac{5}{2}\right)\left(s^2 - 4s + 8\right)}$$
 
+Una vez tengamos la ecuacion pasaremos a resolver el ejercicio este lo resolveremos por fracciones parcciales teniendo lo siguiente
+
 $$\frac{6s}{\left(s - \frac{5}{2}\right)\left(s^2 - 4s + 8\right)} = \frac{A}{s - \frac{5}{2}} + \frac{Bs + C}{s^2 - 4s + 8}$$
 
 $$6s = A(s^2 - 4s + 8) + (Bs + C)\left(s - \frac{5}{2}\right)$$
@@ -76,6 +78,49 @@ $$6s = A(s^2 - 4s + 8) + (Bs + C)\left(s - \frac{5}{2}\right)$$
 $$6s = As^2 - 4As + 8A + Bs^2 - \frac{5}{2}Bs + Cs - \frac{5}{2}C$$
 
 $$6s = s^2(A + B) + s(-4A + C - \frac{5}{2}B) + (8A - \frac{5}{2}C)$$
+
+Al haber hecho el despeje por medio de fracciones parciales podemos asignar el siguiente sistema de ecuaciones esto con el fin de hallar las incógnitas de A B y C
+
+$$A + B = 0$$
+
+$$-4A + C - \frac{5}{2}B = 6$$
+
+$$8A - \frac{5}{2}C = 0$$
+
+Empesaremos hallando C y B en terminos de A
+
+$$8A - \frac{5}{2}C = 0$$
+
+$$C = \frac{2(8A)}{5}$$
+
+$$C = \frac{16A}{5}$$
+
+y para B 
+
+$$A + B = 0$$
+
+$$B = -A$$
+
+una vez teniendo C y B en terminos de A remplazaremos en la segunda ecuacion para hallar A
+
+$$-4A + C - \frac{5}{2}B = 6$$
+
+$$\frac{-4A + 16A'}{5} - \frac{5(-A)}{2} = 6$$
+
+$$\frac{-4A + 16A}{5} + \frac{5A}{2} = 6
+\quad \text{(Multiplicamos por 10)}$$
+
+$$-40A + 32A + 25A = 60$$
+
+$$17A = 60$$
+
+$$A = \frac{60}{17}$$
+
+
+
+
+
+
 
 
 
