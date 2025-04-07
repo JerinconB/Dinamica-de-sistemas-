@@ -120,7 +120,15 @@ Teniendo A ya podremos hallar B y C teniendo que para B es
 
 $$B = -A$$
 
-$$B = -\frac{60}{17}$
+$$B = -\frac{60}{17}$$
+
+y para C tenemos que 
+
+$$C = \frac{16A}{5}$$
+
+$$C = \frac{16}{5} \cdot \frac{60}{17}$$
+
+$$C = \frac{192}{17}$$
 
 
 
