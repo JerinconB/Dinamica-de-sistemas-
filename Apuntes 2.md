@@ -1,6 +1,7 @@
 # Apuntes Dinamica de Sistemas 2 Corte 
 ### Rincon Benavides Juan Esteban 
-## Correccion primer parcial 
+## Correccion primer parcial
+## Punto 1
 Para el primer punto del parcial nos presenta la siguiente ecuación la cual deberemos solucionar según las condiciones iniciales determinadas en este mismo 
 
 $$2\ddot{x} + 2\dot{x} + x = 1$$
@@ -63,6 +64,7 @@ $$s^2 + s + \frac{1}{2} = \left(s + \frac{1}{2}\right)^2 + \frac{3}{4}$$
 
 $$x(t) = 2 + e^{-\frac{1}{2}t} \left( \cos\left( \frac{\sqrt{3}}{2}t \right) - \sqrt{3} \sin\left( \frac{\sqrt{3}}{2}t \right) \right)$$
 
+## Punto 2
 Para el segundo punto del ejercicio del parcial deberemos hallar $f(s)$ la ecuación correspondiente es
 
 $$F(s) = \frac{6s}{\left(s - \frac{5}{2}\right)\left(s^2 - 4s + 8\right)}$$
