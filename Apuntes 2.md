@@ -140,6 +140,17 @@ $$f(s) = \frac{24}{17} \delta(t) + \frac{1}{17} \left[ -60 e^{2t} \cos(2t) + 72 
 
 # Sistemas Mecanicos 
 ### 26/03/2025
+## Principio general de modelamiento
+
+[![image.png](https://i.postimg.cc/52XKQWgv/image.png)](https://postimg.cc/87Vmx3qP)
+
+Para el modelamiento de sistemas mecánicos veremos que está representado por varios, como mecánico eléctrico hidráulico térmico y combinaciones de estos mismos cómo matemáticamente están representados estos sistemas para darnos una idea de su funcionamiento
+Estos sistemas tienen una cierta cantidad de elementos característicos los cuales se representan cada uno con su ecuación y un funcionamiento específico Como lo son los siguientes para un sistema mecánico más amortiguador
+
+## Resorte
+Como bien su nombre indica este es un elemento resortado la cual se considera para beneficio de los cálculos resortes lineales la cual la fuerza externa aplicada y el desplazamiento están relacionados por una constante de proporcionalidad dicha constante dependerá siempre del ejercicio, su representación gráfica y ecuación es la siguiente
+
+[![image.png](https://i.postimg.cc/P51ZR6r9/image.png)](https://postimg.cc/PCrPLQDQ)
 
 
 
