@@ -134,15 +134,7 @@ Una vez hayas las incógnitas podremos reemplazarlas en las fracciones parciales
 
 $$\frac{\frac{60}{17}}{5 - \frac{5}{2}} + \frac{-\frac{60}{17}s + \frac{192}{17}}{s^2 - 4s + 8}$$
 
-$$
-\mathcal{L}^{-1} \left\{
-\frac{24}{17} + \frac{1}{17} \cdot \left( \frac{-60s + 192}{s^2 - 4s + 8} \right)
-\right\}
-=
-\frac{24}{17} \delta(t) + \frac{1}{17} \left[ -60 e^{2t} \cos(2t) + 72 e^{2t} \sin(2t) \right]
-$$
-
-Más ordenadamente:
+Teniendo como resultado en la transformada lo sigiente 
 
 $$f(t) = \frac{24}{17} \delta(t) + \frac{1}{17} \left[ -60 e^{2t} \cos(2t) + 72 e^{2t} \sin(2t) \right]$$
 
