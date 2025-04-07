@@ -33,6 +33,22 @@ $$A + 2C = 4$$
 
 $$A + 2B = 0$$
 
+Una vez con este sistema de ecuaciones pasaremos a resolver las incógnitas teniendo como resultado lo siguiente para A:
+
+$$A = 2$$
+
+Sustituyendo A en la tercera ecuacion tendremos que el resultado de B es:
+
+$$A + 2B = 0$$
+
+$$2 + 2B = 0$$
+
+$$B = -1$$
+
+$$C = \frac{1}{2}$$
+
+$$A = 2$$
+
 
 
 
