@@ -65,9 +65,9 @@ $$x(t) = 2 + e^{-\frac{1}{2}t} \left( \cos\left( \frac{\sqrt{3}}{2}t \right) - \
 
 Para el segundo punto del ejercicio del parcial deberemos hallar $f(s)$ la ecuación correspondiente es
 
-$$F(s) = \frac{65}{\left(s - \frac{5}{2}\right)\left(s^2 - 4s + 8\right)}$$
+$$F(s) = \frac{6s}{\left(s - \frac{5}{2}\right)\left(s^2 - 4s + 8\right)}$$
 
-$$\frac{65}{\left(s - \frac{5}{2}\right)\left(s^2 - 4s + 8\right)} = \frac{A}{s - \frac{5}{2}} + \frac{Bs + C}{s^2 - 4s + 8}$$
+$$\frac{6s}{\left(s - \frac{5}{2}\right)\left(s^2 - 4s + 8\right)} = \frac{A}{s - \frac{5}{2}} + \frac{Bs + C}{s^2 - 4s + 8}$$
 
 $$6s = A(s^2 - 4s + 8) + (Bs + C)\left(s - \frac{5}{2}\right)$$
 
