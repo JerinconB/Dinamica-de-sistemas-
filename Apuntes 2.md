@@ -55,25 +55,16 @@ $$C = 1$$
 
 Una vez teniendo esto podremos reemplazar los valores de A B y C en la ecuación de fracciones parciales esto para dar fin al ejercicio y poder hallar la transformada inversa del mismo
 
-$$
-\frac{2}{s} + \frac{-s + 1}{s^2 + s + \frac{1}{2}}
-$$
+$$\frac{2}{2s} + \frac{-s + 1}{s^2 + s + \frac{1}{2}}$$
 
-$$
-\mathcal{L}^{-1} \left\{ \frac{2}{s} \right\} = 2
-$$
+$$\mathcal{L}^{-1} \left\{ \frac{-s + 1}{s^2 + s + \frac{1}{2}} \right\}$$
 
-$$
-\mathcal{L}^{-1} \left\{ \frac{-s + 1}{s^2 + s + \frac{1}{2}} \right\}
-$$
+$$s^2 + s + \frac{1}{2} = \left(s + \frac{1}{2}\right)^2 + \frac{3}{4}$$
 
-$$
-s^2 + s + \frac{1}{2} = \left(s + \frac{1}{2}\right)^2 + \frac{1}{4}
-$$
+$$x(t) = 2 + e^{-\frac{1}{2}t} \left( \cos\left( \frac{\sqrt{3}}{2}t \right) - \sqrt{3} \sin\left( \frac{\sqrt{3}}{2}t \right) \right)$$
 
-$$
-x(t) = 2 + e^{-\frac{1}{2}t} \left( \cos\left(\frac{\sqrt{3}}{2}t\right) - \sqrt{3} \sin\left(\frac{\sqrt{3}}{2}t\right) \right)
-$$
+
+
 
 
 
