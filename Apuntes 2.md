@@ -130,6 +130,15 @@ $$C = \frac{16}{5} \cdot \frac{60}{17}$$
 
 $$C = \frac{192}{17}$$
 
+Una vez hayas las incógnitas podremos reemplazarlas en las fracciones parciales teniendo como resultado lo siguiente este resultado es al que le ha realizaremos la transformada inversa de Laplace
+
+$$\frac{\frac{60}{17}}{5 - \frac{5}{2}} + \frac{-\frac{60}{17}s + \frac{192}{17}}{s^2 - 4s + 8}$$
+
+$$\mathcal{L}^{-1} \left\{\frac{24}{17} + \frac{1}{17} \cdot \left( \frac{-60s + 192}{s^2 - 4s + 8} \right)\right\}=\frac{24}{17} \delta(t) + \frac{1}{17} \left[ -60 e^{2t} \cos(2t) + 72 e^{2t} \sin(2t) \right]$$
+
+Más ordenadamente:
+
+$$f(t) = \frac{24}{17} \delta(t) + \frac{1}{17} \left[ -60 e^{2t} \cos(2t) + 72 e^{2t} \sin(2t) \right]$$
 
 
 
