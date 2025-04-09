@@ -162,7 +162,13 @@ Existen tres tipos de friccion en estos sistemas los cuales serian la friccion e
 
 [![IMG-20250409-172155.jpg](https://i.postimg.cc/k5GyMV4P/IMG-20250409-172155.jpg)](https://postimg.cc/8F8vtzMZ)
 
-En el caso del rozamiento por rodamiento veremos que la furza las cuales tendremos en nuestro sistema son torques y pares por ser circular el elementos una de las circunstancias que tendremos es que tendra un par de fricción muy pequeño a si como se ve en la imaguen 
+En el caso del rozamiento por rodamiento veremos que la furza las cuales tendremos en nuestro sistema son torques y pares por ser circular el elementos una de las circunstancias que tendremos es que tendra un par de fricción muy pequeño a si como se ve en la imaguen
+
+[![Screenshot-2025-04-09-17-25-24-871-com-microsoft-teams-edit.jpg](https://i.postimg.cc/VNJjQ3GY/Screenshot-2025-04-09-17-25-24-871-com-microsoft-teams-edit.jpg)](https://postimg.cc/mcGc76Wq)
+
+# Sistema masa-resorte-amortiguador 
+
+
 
 
 
