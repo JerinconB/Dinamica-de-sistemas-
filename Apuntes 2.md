@@ -157,7 +157,8 @@ Este es un elemento mecanico el cual nos ayuda en los sistemas a dicipar energia
 
 [![Screenshot-2025-04-09-17-02-51-473-com-microsoft-teams-edit.jpg](https://i.postimg.cc/T1MwLmYL/Screenshot-2025-04-09-17-02-51-473-com-microsoft-teams-edit.jpg)](https://postimg.cc/9RbVsD9C)
 
-
+## Tipos de friccion
+Existen tres tipos de friccion en estos sistemas los cuales serian la friccion estatica, friccion por deslizamiento y friccion por rozamiento cabe a clarar que estos tres tipos de friccion se dan cuando ninguna de las superficies estan lunricadas 
 
 
 
