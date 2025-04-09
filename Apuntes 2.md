@@ -152,7 +152,11 @@ Como bien su nombre indica este es un elemento resortado la cual se considera pa
 
 [![image.png](https://i.postimg.cc/P51ZR6r9/image.png)](https://postimg.cc/PCrPLQDQ)
 
-hola
+## Amortiguador 
+Este es un elemento mecanico el cual nos ayuda en los sistemas a dicipar energia por medio de calor su funcionamiento es lineal segun la velocidad de desplazamiento que genere puede ser usadado tambien oara representar la friccion entre una masa y una superficie, al analizarlo de una forma limeal nos ayuda a entender mejor su funcicionamiento y a representarlo mejor matematicamente, su representacion grafica y modelamiento es el siguiente
+
+[![Screenshot-2025-04-09-17-02-51-473-com-microsoft-teams-edit.jpg](https://i.postimg.cc/T1MwLmYL/Screenshot-2025-04-09-17-02-51-473-com-microsoft-teams-edit.jpg)](https://postimg.cc/9RbVsD9C)
+
 
 
 
