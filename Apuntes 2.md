@@ -166,7 +166,8 @@ En el caso del rozamiento por rodamiento veremos que la furza las cuales tendrem
 
 [![Screenshot-2025-04-09-17-25-24-871-com-microsoft-teams-edit.jpg](https://i.postimg.cc/VNJjQ3GY/Screenshot-2025-04-09-17-25-24-871-com-microsoft-teams-edit.jpg)](https://postimg.cc/mcGc76Wq)
 
-# Sistema masa-resorte-amortiguador 
+## Sistema masa-resorte-amortiguador 
+Este es uno de los sistemas mas censillos que se pueden dar variara su dificultad segun la cantidad de elementos a analizar
 
 
 
