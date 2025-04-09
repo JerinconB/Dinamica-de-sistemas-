@@ -160,6 +160,10 @@ Este es un elemento mecanico el cual nos ayuda en los sistemas a dicipar energia
 ## Tipos de friccion
 Existen tres tipos de friccion en estos sistemas los cuales serian la friccion estatica, friccion por deslizamiento y friccion por rozamiento cabe a clarar que estos tres tipos de friccion se dan cuando ninguna de las superficies estan lunricadas 
 
+[![IMG-20250409-172155.jpg](https://i.postimg.cc/k5GyMV4P/IMG-20250409-172155.jpg)](https://postimg.cc/8F8vtzMZ)
+
+En el caso del rozamiento por rodamiento veremos que la furza las cuales tendremos en nuestro sistema son torques y pares por ser circular el elementos una de las circunstancias que tendremos es que tendra un par de fricción muy pequeño a si como se ve en la imaguen 
+
 
 
 
