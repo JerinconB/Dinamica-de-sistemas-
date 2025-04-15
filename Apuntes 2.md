@@ -234,6 +234,8 @@ $$F_{R2} + F_F - F_{R3} = m_2 \cdot a_{m2}$$
 
 $$k_2 \cdot (x_1(t) - x_2(t)) + b \cdot \frac{d(x_1(t) - x_2(t))}{dt} - k_3 \cdot x_2(t) = m_2 \cdot \frac{d^2 x_2(t)}{dt^2}$$
 
+# Sistemas rotacionales 
+### 2/04/2025
 
 
 
