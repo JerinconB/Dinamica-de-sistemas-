@@ -1,6 +1,6 @@
 # Apuntes Dinamica de Sistemas 2 Corte 
 ### Rincon Benavides Juan Esteban 
-## Correccion primer parcial
+## Correccion primer parcial---19/03/2025
 ## Punto 1
 Para el primer punto del parcial nos presenta la siguiente ecuación la cual deberemos solucionar según las condiciones iniciales determinadas en este mismo 
 
@@ -218,6 +218,21 @@ Habiendo analizado 2 sistemas podremos dar paso a uno de los sistemas más compl
 Para el análisis de este sistema sigue los mismos pasos que los anteriores pues necesitaremos analizar el diagrama de cuerpo libre para así ver dónde están actuando las fuerzas correspondientes de cada elemento esto será individual para cada una de las masas teniendo 2 diagramas de cuerpo libre
 ### Para la masa 1
 [![image.png](https://i.postimg.cc/vTW8Gfyb/image.png)](https://postimg.cc/Lg8FTqhb)
+
+Una vez en el diagrama de cuerpo libre correspondiente de igual manera analizaremos que la sumatoria de fuerzas sean igual a la masa por la aceleración de esa masa 1, en estos sistemas cuyas masas están entrelazadas por un resorte o un amortiguador se debe tener en cuenta que la distancia de elongación del resorte depende del movimiento de ambas masas asimismo la velocidad del émbolo del amortiguador depende del movimiento de ambas más para facilitar y analizar los cálculos teniendo como resultado lo siguiente
+
+$$u - F_{R1} - F_{R2} - F_F = m_1 \cdot a_{m1}$$
+
+$$u(t) - k_1 \cdot x_1(t) - k_2 \cdot (x_1(t) - x_2(t)) - b \cdot \frac{d(x_1(t) - x_2(t))}{dt} = m_1 \cdot \frac{d^2 x_1(t)}{dt^2}$$
+
+## Para la masa 2
+[![image.png](https://i.postimg.cc/Kv67qyqT/image.png)](https://postimg.cc/hf07vNq4)
+
+De igual manera que para la masa número uno tendremos que analizar y dar sentido al diagrama de cuerpo libre teniendo en cuenta las mismas recomendaciones dichas para el sistema de la masa número uno, sabiendo que la distancia de obligación de cada uno de los resortes o émbolos de amortiguador van a depender de ambas masas teniendo como consecuente lo siguiente.
+
+$$F_{R2} + F_F - F_{R3} = m_2 \cdot a_{m2}$$
+
+$$k_2 \cdot (x_1(t) - x_2(t)) + b \cdot \frac{d(x_1(t) - x_2(t))}{dt} - k_3 \cdot x_2(t) = m_2 \cdot \frac{d^2 x_2(t)}{dt^2}$$
 
 
 
