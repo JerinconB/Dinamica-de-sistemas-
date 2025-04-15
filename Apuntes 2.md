@@ -195,16 +195,29 @@ $$a = \frac{d^2 y(t)}{dt^2}$$
 
 $$u(t) - k_2 \cdot y(t) - k_1 \cdot \frac{dy(t)}{dt} = m \cdot \frac{d^2 y(t)}{dt^2}$$
 
+Un ejemplo más complicado podría ser el que analizaremos a continuación este ejemplo simula una rueda que está enganchada a una masa junto con un amortiguador y un resorte como una especie de automóvil para ello el diagrama general que nos dan es el siguiente.
 
+[![image.png](https://i.postimg.cc/W4cgs6gf/image.png)](https://postimg.cc/qNQzLKm8)
 
+Para el análisis del ejercicio veremos que es un ejercicio el cual las fuerzas aplicadas están en el eje y por lo cual tendremos que analizar la fuerza  de peso ya que influye en el sistema, a continuación el diagrama de cuerpo libre queda de la siguiente forma.
 
+[![image.png](https://i.postimg.cc/QxnqZTfR/image.png)](https://postimg.cc/9rZ9Gr5p)
 
+una vez con esto el procedimiento es muy similar a la anterior pues debemos garantizar que la sumatoria de fuerzas sea igual a masa por aceleración teniendo el siguiente resultado
 
+$$\sum F = m a$$
 
+$$U - k_2 - k_1 + W + mg = m a$$
 
+$$U(t) - k_2 y(t) - k_1 \frac{dy(t)}{dt} + mg = m \frac{d^2 y(t)}{dt^2}$$
 
+Habiendo analizado 2 sistemas podremos dar paso a uno de los sistemas más complejos ya que en este caso dependeremos de 2 masas y multitud de elementos el diagrama correspondiente para este tipo de ejercicios es el siguiente
 
+[![image.png](https://i.postimg.cc/sXQJXD1T/image.png)](https://postimg.cc/34hGfhXG)
 
+Para el análisis de este sistema sigue los mismos pasos que los anteriores pues necesitaremos analizar el diagrama de cuerpo libre para así ver dónde están actuando las fuerzas correspondientes de cada elemento esto será individual para cada una de las masas teniendo 2 diagramas de cuerpo libre
+### Para la masa 1
+[![image.png](https://i.postimg.cc/vTW8Gfyb/image.png)](https://postimg.cc/Lg8FTqhb)
 
 
 
