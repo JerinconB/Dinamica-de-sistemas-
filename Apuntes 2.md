@@ -167,7 +167,39 @@ En el caso del rozamiento por rodamiento veremos que la furza las cuales tendrem
 [![Screenshot-2025-04-09-17-25-24-871-com-microsoft-teams-edit.jpg](https://i.postimg.cc/VNJjQ3GY/Screenshot-2025-04-09-17-25-24-871-com-microsoft-teams-edit.jpg)](https://postimg.cc/mcGc76Wq)
 
 ## Sistema masa-resorte-amortiguador 
-Este es uno de los sistemas mas censillos que se pueden dar variara su dificultad segun la cantidad de elementos a analizar
+Este es uno de los sistemas mas censillos que se pueden dar, variara su dificultad segun la cantidad de elementos a analizar,para el análisis y solución de estos sistemas debemos tener en cuenta el fenómeno físico que modela el sistema en general nos basamos en 3 leyes
+
+[![image.png](https://i.postimg.cc/hjX8h3zc/image.png)](https://postimg.cc/62N4mcfm)
+
+Estas nos ayudarán a analizar y resolver el sistema estos sistemas masa resorte amortiguador pueden verse de la siguiente manera
+
+[![image.png](https://i.postimg.cc/CKLspKwZ/image.png)](https://postimg.cc/YvZW1MGk)
+
+Teniendo una vez el sistema podremos dar solución a este ejemplo sabiendo que para el análisis del mismo deberemos solucionar el diagrama de cuerpo libre correspondiente teniendo en cuenta para qué direcciones van las fuerzas y asumiendo el signo para cada una de ellas, teniendo como solución el siguiente diagrama de bloques
+
+[![image.png](https://i.postimg.cc/bNc0Ngzf/image.png)](https://postimg.cc/Th05trLt) 
+
+Una vez hecho el diagrama de bloques sólo nos queda plantear las ecuaciones del sistema para ello utilizaremos la ley de sumatorias de kirchhoff teniendo en cuenta que todas las fuerzas tienen que ser iguales a la masa por aceleración
+
+$$u - F_R - F_F = m \cdot a$$
+
+$$F_R = k_2 \cdot y(t)$$
+
+$$u(t) - k_2 \cdot y(t) - F_F = m \cdot a$$
+
+$$F_F = k_1 \cdot \frac{dy(t)}{dt}$$
+
+$$u(t) - k_2 \cdot y(t) - k_1 \cdot \frac{dy(t)}{dt} = m \cdot a$$
+
+$$a = \frac{d^2 y(t)}{dt^2}$$
+
+$$u(t) - k_2 \cdot y(t) - k_1 \cdot \frac{dy(t)}{dt} = m \cdot \frac{d^2 y(t)}{dt^2}$$
+
+
+
+
+
+
 
 
 
