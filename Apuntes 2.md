@@ -288,11 +288,20 @@ $$\Delta U = \int_{x_1}^{x_2} F \, dx = \int_{x_1}^{x_2} kx \, dx = \frac{1}{2} 
 ## Potencia en un resorte 
 Para el caso de la potencia en un resorte la representaremos como la tasa de transferencia de energía debido a la fuerza que ejerce el resorte mientras se comprime o estira pueden llegar a ser 2 conceptos muy parecidos se representa matemáticamente de la siguiente manera
 
-$$P = \frac{dW}{dt} = \frac{F \, dx}{dt} = F \dot{x} = kx \dot{x}$$
+$$P = \frac{dW}{dt} = \frac{F \ dx}{dt} = F \dot{x} = kx \dot{x}$$
 
 Y sabiendo que $\dot{U} = \frac{1}{2} k \cdot \frac{d(x^2)}{dt}$ tendriamos
 
 $$P = kx \dot{x} = \dot{U}$$
+
+## Potencia de una masa 
+La potencia en una masa la definiremos como la tasa de trabajo realizado o energía transferida para una masa que se mueve bajo la acción de una fuerza, también se relaciona como la potencia requerida para acelerar una masa en línea recta matemáticamente se expresa de la siguiente manera
+
+$$P = \frac{dW}{dt} = \frac{F \, dx}{dt} = F \dot{x} = m \dot{x} \ddot{x}$$
+
+Sabiendo que $T = \frac{1}{2}mv^2$ tendremos lo siguiente 
+
+$$P = m \dot{x} \ddot{x} = mv\dot{v} = \dot{T}$$
 
 
 
