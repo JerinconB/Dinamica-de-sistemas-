@@ -267,8 +267,10 @@ Para este caso la energía cinética es debido a la velocidad que genera cada si
 [![image.png](https://i.postimg.cc/bvymPL3y/image.png)](https://postimg.cc/RWY7Q7ky)
 
 ## Potencia 
-Podemos definir la potencia en un sistema mecánico como la velocidad a la cual se realiza cierto trabajo o transferencia de energía esto puede estar asociado al movimiento lineal o rotacional en el caso de sistemas lineales tenemos que 
+Podemos definir la potencia en un sistema mecánico como la velocidad a la cual se realiza cierto trabajo o transferencia de energía esto puede estar asociado al movimiento lineal o rotacional en el caso de sistemas lineales tenemos que
+
 $$P = \frac{dW}{dt} = \vec{F} \cdot \vec{v}$$
+
 donde:
 - \( W \) es el trabajo,  
 - \( \vec{F} \) es la fuerza aplicada,  
