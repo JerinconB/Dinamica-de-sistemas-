@@ -276,6 +276,23 @@ donde:
 - \( \vec{F} \) es la fuerza aplicada,  
 - \( \vec{v} \) es la velocidad del objeto.
 
+## Energía potencial en un resorte 
+Este concepto está asociado a la deformación del resorte ya sea estirándolo o comprimiéndolo esto con respecto a una posición de equilibrio o posición inicial esta energía se almacena como energía elástica, además de ello es el trabajo neto hecho sobre él por las fuerzas que actúan en sus extremos matemáticamente la energía potencial de un resorte la definiremos con una integral de cada uno de sus puntos como lo vemos a continuación
+
+$$U = \int_0^x F \, dx = \int_0^x kx \, dx = \frac{1}{2} k x^2$$
+
+De forma general el cambio de energía sería:
+
+$$\Delta U = \int_{x_1}^{x_2} F \, dx = \int_{x_1}^{x_2} kx \, dx = \frac{1}{2} k x_2^2 - \frac{1}{2} k x_1^2$$
+
+## Potencia en un resorte 
+Para el caso de la potencia en un resorte la representaremos como la tasa de transferencia de energía debido a la fuerza que ejerce el resorte mientras se comprime o estira pueden llegar a ser 2 conceptos muy parecidos se representa matemáticamente de la siguiente manera
+
+$$P = \frac{dW}{dt} = \frac{F \, dx}{dt} = F \dot{x} = kx \dot{x}$$
+
+Y sabiendo que $\dot{U} = \frac{1}{2} k \cdot \frac{d(x^2)}{dt}$ tendriamos
+
+$$P = kx \dot{x} = \dot{U}$$
 
 
 
