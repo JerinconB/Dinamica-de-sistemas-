@@ -236,6 +236,24 @@ $$k_2 \cdot (x_1(t) - x_2(t)) + b \cdot \frac{d(x_1(t) - x_2(t))}{dt} - k_3 \cdo
 
 # Sistemas rotacionales 
 ### 2/04/2025
+Los sistemas rotacionales son un tipo de sistema dinámico el cual el movimiento se describe en términos de rotación alrededor de un eje honesto con diferencia a los sistemas traslacionales los cuales siempre se mueven en línea recta sea en el eje x o en el eje y, hoy los sistemas rotacionales implican variables angulares y torques estos sistemas son fundamentales en el estudio de dinámica de cuerpos rígidos de igual forma que en los sistemas traslacionales se aplican leyes comparables a la del movimiento lineal las cuales son
+
+[![image.png](https://i.postimg.cc/wTJ8Kpzz/image.png)](https://postimg.cc/8j1nWxsX)
+
+Una representación gráfica de estos sistemas sería la siguiente, igual que en los sistemas traslacionales los pasos de solución de estos ejercicios serán muy parecidos teniendo en cuenta que sí o sí necesitaremos analizar y hacer un diagrama de cuerpo libre hola teniendo que la solución para este ejercicio es la siguiente.
+
+[![image.png](https://i.postimg.cc/P5h7BvKb/image.png)](https://postimg.cc/xcxgmCwq)
+
+[![image.png](https://i.postimg.cc/xjzF834y/image.png)](https://postimg.cc/Wts7fgjh)
+
+$$T - F_R - F_F = J \cdot \alpha \quad \rightarrow \quad \alpha \text{ aceleración angular}$$
+
+$$T(t) - F_F = J \cdot \alpha \quad \rightarrow \quad \alpha \text{ aceleración angular}$$
+
+$$T(t) - k \cdot \theta(t) - b \cdot \frac{d\theta(t)}{dt} = J \cdot \frac{d^2 \theta(t)}{dt^2}$$
+
+## Trabajo, Energía y Potencia 
+El trabajo en este caso es una medida de energía 
 
 
 
