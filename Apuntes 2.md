@@ -253,7 +253,27 @@ $$T(t) - F_F = J \cdot \alpha \quad \rightarrow \quad \alpha \text{ aceleración
 $$T(t) - k \cdot \theta(t) - b \cdot \frac{d\theta(t)}{dt} = J \cdot \frac{d^2 \theta(t)}{dt^2}$$
 
 ## Trabajo, Energía y Potencia 
-El trabajo en este caso es una medida de energía 
+El trabajo en este caso es una medida de la energía transferida a un objeto cuando una fuerza se aplica a lo largo de un desplazamiento esta fuerza es constante, en otras es una medida de la realización del esfuerzo a continuación veremos la fórmula general para hallarla, la energía puede dividirse en 2, energía potencial, energía cinética.
+
+[![image.png](https://i.postimg.cc/FK7ncYv0/image.png)](https://postimg.cc/gwbDbkn0)
+### Energía Potencial 
+Esta energía consiste más que todo en que en sistemas mecánicos la energía potencial cambia de acuerdo a su posición esto con respecto a una referencia está además de eso en los sistemas mecánicos veremos que los resortes y las masas son los encargados de almacenar energía potencial esta es equivalente al trabajo realizado por la fuerza externa para poder hallar matemáticamente se utiliza una integral definida teniendo así lo siguiente
+
+[![image.png](https://i.postimg.cc/FKMGLGDQ/image.png)](https://postimg.cc/hJ09FLkC)
+
+### Energía Cinética 
+Para este caso la energía cinética es debido a la velocidad que genera cada sistema dinámico solamente los elementos de inercia pueden almacenar energía cinética un ejemplo de ellos puede ser el cambio en la energía cinética es el trabajo realizado sobre una masa por la aplicación de una fuerza que acelera o desacelera 
+
+[![image.png](https://i.postimg.cc/bvymPL3y/image.png)](https://postimg.cc/RWY7Q7ky)
+
+## Potencia 
+Podemos definir la potencia en un sistema mecánico como la velocidad a la cual se realiza cierto trabajo o transferencia de energía esto puede estar asociado al movimiento lineal o rotacional en el caso de sistemas lineales tenemos que 
+$$P = \frac{dW}{dt} = \vec{F} \cdot \vec{v}$$
+donde:
+- \( W \) es el trabajo,  
+- \( \vec{F} \) es la fuerza aplicada,  
+- \( \vec{v} \) es la velocidad del objeto.
+
 
 
 
