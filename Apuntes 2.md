@@ -303,5 +303,39 @@ Sabiendo que $T = \frac{1}{2}mv^2$ tendremos lo siguiente
 
 $$P = m \dot{x} \ddot{x} = mv\dot{v} = \dot{T}$$
 
+## Energía disipada 
+Para hablar de energía disipa hablaremos de elementos tales como el amortiguador ya que es un elemento el cual disipa energía por medio de calor esto corresponde al trabajo neto realizado sobre éste esto nos ayuda a como bien su nombre dice amortiguar y disminuir la fuerza que ejerce cierta masa sobre el mismo para disminuir o ralentizar la fuerza aplicada esta energía disipa se puede calcular de la siguiente manera
+
+[![image.png](https://i.postimg.cc/Gm7hzd3J/image.png)](https://postimg.cc/K1T28XMR)
+
+$$\Delta W = \int_{x_1}^{x_2} F \, dx$$
+
+$$= \int_{x_1}^{x_2} b \dot{x} \, dx$$
+
+$$= b \int_{x_1}^{x_2} \dot{x} \frac{dx}{dt} \, dt$$
+
+$$= b \int_{t_1}^{t_2} \dot{x}^2 \, dt$$ 
+
+Así mismo como la energía disipada tendremos que estos elementos disipan también potencia así como los demás así que para la potencia disipada en el a amortiguador de un cilindro matemáticamente es
+
+$$P = \frac{dW}{dt} = F \frac{dx}{dt} = F \dot{x}$$
+
+Sabiendo que $F = b \dot{x}$ entonces tenemos que 
+
+$$P = b \dot{x}^2$$
+
+## Conservación de la energía 
+Uno de los temas que se considera a la hora del análisis de sistemas mecánicos es la conservación de la energía esta es posible obtenerla con el modelo matemático considerando que la energía total de un sistema permanece igual si ninguna energía entra o sale del sistema más que todo lo veremos en sistemas mecánicos con fricción ya que ésta disipa energía en forma de calor aparte no tendremos en cuenta ni incluiremos los sistemas que no tienen fricción ya que se denominan sistemas conservativos, En clase veremos varios ejemplos de estos y siendo unos de los más comunes a analizar son los sistemas conservativos.
+
+### Sistemas conservativos
+Toda energía cinética y potencial sale del sistema en forma de trabajo mecánico no se disipa energía, es un sistema donde la energía mecánica total se mantiene constante a lo largo del tiempo por lo tanto el trabajo realizado por estas fuerzas no depende del camino seguido sino únicamente la posición inicial y final del sistema dinámico, un ejemplo de este sistema es el siguiente 
+
+[![image.png](https://i.postimg.cc/zGcRd9qW/image.png)](https://postimg.cc/0z7QjXM2)
+
+$$T + U = \frac{1}{2} m \dot{x}^2 + \frac{1}{2} k x^2 = \text{constante}$$
+
+$$\frac{d}{dt}(T + U) = m \ddot{x} \dot{x} + k x \dot{x} = (m \ddot{x} + k x) \dot{x} = 0$$
+
+$$m \ddot{x} + k x = 0$$
 
 
