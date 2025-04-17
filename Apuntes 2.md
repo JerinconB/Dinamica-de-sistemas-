@@ -338,4 +338,44 @@ $$\frac{d}{dt}(T + U) = m \ddot{x} \dot{x} + k x \dot{x} = (m \ddot{x} + k x) \d
 
 $$m \ddot{x} + k x = 0$$
 
+Otro caso es cuando tenemos un sistema mecánico en vertical en este caso se debe tomar en cuenta la energía debida a la posición inicial del sistema tanto para cuando no esté equilibrio y cuando está en equilibrio hola para el caso de no estar en equilibrio tendremos que
+
+$$U_0 = mgx_0 + \frac{1}{2}k \delta^2$$
+
+Siesta en equilibrio entonces 
+
+$$k \delta = mg$$ 
+
+Para verlo más claro tendremos el siguiente ejemplo
+
+[![image.png](https://i.postimg.cc/SsknvqYZ/image.png)](https://postimg.cc/gwtcxCDR)
+
+$$U = mg(x_0 - x) + \frac{1}{2}k(\delta + x)^2$$
+
+$$= mgx_0 - mgx + \frac{1}{2}k\delta^2 + k\delta x + \frac{1}{2}kx^2$$
+
+$$= mgx_0 + \frac{1}{2}k\delta^2 - (mg - k\delta)x + \frac{1}{2}kx^2$$
+
+$$U = U_0 + \frac{1}{2}kx^2$$
+
+Estos pueden ser los casos más comunes en los cuales tendremos que analizar más sin embargo en la industria y en ejemplos más prácticos veremos que los sistemas a los cuales nos enfrentamos suelen ser una combinación de estos mismos sea en el eje x, en el eje y o rotacionales en este caso veremos un ejemplo en el cual se combina rotacional con lineal teniendo así un ejercicio completo
+[![image.png](https://i.postimg.cc/jq9sWtqG/image.png)](https://postimg.cc/DmrVHVXg)
+
+Analizaremos el ejercicio realizando un diagrama de cuerpo libre en el cual veremos las fuerzas que actúan sobre los diferentes elementos teniendo así el siguiente diagrama
+
+[![image.png](https://i.postimg.cc/ydGzSyKF/image.png)](https://postimg.cc/njqWy7Cz)
+
+Una vez con esto podremos analizar la sumatoria en este caso de torques para garantizar las ecuaciones del sistema mecánico quedando de la siguiente forma
+
+$$T_m - T_1 - B_m \frac{d\theta}{dt} = J_m \frac{d^2\theta}{dt^2}$$
+
+$$T_1 = Mr^2 \frac{d^2\theta}{dt^2}$$
+
+$$T_m - Mr^2 \frac{d^2\theta}{dt^2} - B_m \frac{d\theta}{dt} = J_m \frac{d^2\theta}{dt^2}$$
+
+$$\theta = \frac{y}{r}$$
+
+$$T_m - Mr \frac{d^2 y}{dt^2} - \frac{B_m}{r} \frac{dy}{dt} = \frac{J_m}{r} \frac{d^2 y}{dt^2}$$
+	
+
 
