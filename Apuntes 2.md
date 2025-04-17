@@ -377,5 +377,21 @@ $$\theta = \frac{y}{r}$$
 
 $$T_m - Mr \frac{d^2 y}{dt^2} - \frac{B_m}{r} \frac{dy}{dt} = \frac{J_m}{r} \frac{d^2 y}{dt^2}$$
 	
+## Sistemas Eléctricos 
+### 9/04/2025
+
+[![image.png](https://i.postimg.cc/26G7H0yZ/image.png)](https://postimg.cc/5YHzyqw4)
+
+Como bien sabemos en este caso para los sistemas eléctricos el análisis se basa en sus diferentes componentes en este caso para el tema de dinámica de sistemas los circuitos a analizar van a ser circuitos RLC estos circuitos están modelados por el comportamiento de las leyes de kirchhoff así como podemos ver cada uno de los elementos será representado por una ecuación matemática estas son las siguientes
+
+$$R = \frac{v(t)}{i(t)} \quad \rightarrow \text{Ley de Ohm}$$
+
+$$i(t) = C \frac{dv(t)}{dt} \quad \rightarrow \text{Carga de un condensador}$$
+
+$$v(t) = L \frac{di(t)}{dt} \quad \rightarrow \text{Carga de un inductor}$$
+
+[![image.png](https://i.postimg.cc/RCbcN6H4/image.png)](https://postimg.cc/MXVcLG5F)
+
+
 
 
