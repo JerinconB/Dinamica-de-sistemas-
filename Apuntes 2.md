@@ -400,7 +400,7 @@ $$-u + v_R + v_L + v_C = 0$$
 
 $$-u(t) + i(t) \cdot R + L \frac{di(t)}{dt} + y(t) = 0$$
 
-Aún no está en términos de la variable y:
+Aún no está en términos de la variable y:
 
 $$-u(t) + C \frac{dy(t)}{dt} \cdot R + L \frac{d}{dt} \left( C \frac{dy(t)}{dt} \right) + y(t) = 0$$
 
