@@ -508,3 +508,11 @@ $$
 $$
 \frac{e_i}{R_1} + C \cdot \frac{d(e_i)}{dt} + \frac{e_o}{R_2} + C_2 \cdot \frac{d(e_o)}{dt} = 0
 $$
+
+# Sistemas hidráulicos 
+Un sistema hidráulico es un conjunto de componentes interconectados que utiliza un fluido, generalmente un líquido como el aceite o el agua, para transmitir potencia o realizar trabajo mecánico,en el caso de la clase se verán tanques los cuales es deseable mantener flujo o un nivel constante, su representación es la siguiente
+
+[![Screenshot-2025-05-03-20-23-36-970-com-microsoft-teams-edit.jpg](https://i.postimg.cc/SN5XZDDK/Screenshot-2025-05-03-20-23-36-970-com-microsoft-teams-edit.jpg)](https://postimg.cc/7f3YhMvv)
+
+Dónde:
+qi y qo son los flujos de entrada y salida del sistema,R1 es la resistencia al flujo sea una válvula o etc, A1 es el área transversal del tanque y H1 es el nivel de líquido en el tanque 
