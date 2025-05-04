@@ -390,7 +390,23 @@ $$i(t) = C \frac{dv(t)}{dt} \quad \rightarrow \text{Carga de un condensador}$$
 
 $$v(t) = L \frac{di(t)}{dt} \quad \rightarrow \text{Carga de un inductor}$$
 
+Un ejemplo de un sistema eléctrico sería el siguiente:
+
 [![image.png](https://i.postimg.cc/RCbcN6H4/image.png)](https://postimg.cc/MXVcLG5F)
+
+Aplicando ley de Kirchoff:
+
+$$-u + v_R + v_L + v_C = 0$$
+
+$$-u(t) + i(t) \cdot R + L \frac{di(t)}{dt} + y(t) = 0$$
+
+Aún no está en términos de la variable y:
+
+$$-u(t) + C \frac{dy(t)}{dt} \cdot R + L \frac{d}{dt} \left( C \frac{dy(t)}{dt} \right) + y(t) = 0$$
+
+$$i(t) = C \frac{dy(t)}{dt}$$
+
+$$-u(t) + RC \frac{dy(t)}{dt} + LC \frac{d^2y(t)}{dt^2} + y(t) = 0$$
 
 
 
