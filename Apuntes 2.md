@@ -408,6 +408,58 @@ $$i(t) = C \frac{dy(t)}{dt}$$
 
 $$-u(t) + RC \frac{dy(t)}{dt} + LC \frac{d^2y(t)}{dt^2} + y(t) = 0$$
 
+## Actividad 
+Obtener elodelo para el circuito de la figura 
 
+[![Screenshot-2025-05-03-19-28-14-163-com-microsoft-teams-edit.jpg](https://i.postimg.cc/7Lm2R8H7/Screenshot-2025-05-03-19-28-14-163-com-microsoft-teams-edit.jpg)](https://postimg.cc/McfHcLjK)
+
+Aplicando ley de Kirchhoff:
+
+$$
+-U(t) + V_{R1} + V_{R2} + V_C = 0
+$$
+
+$$
+-U(t) + I R_1 + I R_2 + V_C = 0
+$$
+
+$$
+-U(t) + I (R_1 + R_2) + V_C = 0
+$$
+
+Reescribiendo en términos de voltajes:
+
+$$
+\frac{U - y}{R_1} = \frac{y - V_C}{R_2}
+$$
+
+Despeje parcial:
+
+$$
+\frac{V_C}{R_2} = \ldots
+$$
+
+## Aplicando nodos 
+Otro ejercicio parecido más sin embargo en este caso se desarrollará por el método de nodos pues es uno de los más eficientes cuando se tiene varios elementos en un sistema eléctrico esto se hace con el fin de añanlizar mejor cada parte y tener un desarrollo más fácil.
+
+[![Screenshot-2025-05-03-19-41-51-451-com-microsoft-teams-edit.jpg](https://i.postimg.cc/3wLmf4YY/Screenshot-2025-05-03-19-41-51-451-com-microsoft-teams-edit.jpg)](https://postimg.cc/FfLY7KYB)
+
+Aplicando ley de Kirchhoff de corrientes (LKC):
+
+$$i_u - i_1 - i_c = 0$$
+
+$$i_u(t) - \frac{V_{AB}}{0.5} - 2 \frac{dy(t)}{dt} = 0$$
+
+$$V_{AB} = i_c \cdot 1 + y(t)$$
+
+$$V_{AB} = 2 \frac{dy(t)}{dt} + y(t)$$
+
+Sustituyendo:
+
+$$u(t) - \frac{2}{0.5} \frac{dy(t)}{dt} - \frac{1}{0.5} y(t) - 2 \frac{dy(t)}{dt} = 0$$
+
+Simplificando:
+
+$$u(t) - 6 \frac{dy(t)}{dt} - 2y(t) = 0$$
 
 
