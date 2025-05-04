@@ -496,4 +496,8 @@ $$\frac{e_i}{R_1} - \frac{-e_o}{R_2} - C \frac{d(-e_o)}{dt} = 0$$
 
 $$\frac{e_i}{R_1} = -\frac{e_o}{R_2} - C \frac{d(e_o)}{dt}$$
 
+## Actividad 
+Obtener el modelo matemático para el siguiente circuito con amplificadores operacionales.
+
+[![Screenshot-2025-05-03-20-08-48-878-com-microsoft-teams-edit.jpg](https://i.postimg.cc/N0Whrw0t/Screenshot-2025-05-03-20-08-48-878-com-microsoft-teams-edit.jpg)](https://postimg.cc/p9Ycg48c)
 
