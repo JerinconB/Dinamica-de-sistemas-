@@ -529,3 +529,30 @@ $$ A_1 \frac{dh_1}{dt} = q_i - q_1 $$
 $$ h_1 = q_1 \times R_1 $$
 
 $$ R_1 A_1 \frac{dq_1}{dt} = q_i - q_1 $$ 
+
+## 2 Tanques separados 
+Para el análisis de este ejercicio se tomará en cuenta cada tanque por separado, si representación gráfica es la siguiente 
+
+[![Screenshot-2025-05-03-20-48-30-395-com-microsoft-teams-edit.jpg](https://i.postimg.cc/3RcYZJHb/Screenshot-2025-05-03-20-48-30-395-com-microsoft-teams-edit.jpg)](https://postimg.cc/ZBpGbmnr)
+
+empezaremos analizando el sistema con las ecuaciones de cada uno de los tanques estas son: 
+
+$$ q_1 = \frac{h_1}{R_1} $$
+
+$$ A_1 \frac{dh_1}{dt} = q_i - q_1 $$
+
+una vez con estas ecuaciones lo queremos es reemplazar en la segunda ecuación para que nos quede todos en términos de q1 
+
+$$ R_1 A_1 \frac{dq_1}{dt} = q_i - q_1 $$
+
+cuando tengamos la ecuación que vimos anteriormente pasaremos a las ecuaciones del segundo tanque las cuales deberemos despejar y hallar q1 para reemplazarlo en la tercera ecuación
+
+$$A_2 \frac{dh_2}{dt} = q_1 - q_2$$
+
+$$A_2 \frac{dh_2}{dt} = q_1 - \frac{h_2}{R_2}$$
+
+$$q_1 = A_2 \frac{dh_2}{dt} + \frac{h_2}{R_2}$$
+
+una vez con la respuesta de q1 lo que haremos es reemplazarlo en la tercera ecuación en todos los términos de q1 teniendo la siguiente respuesta y la respuesta final del sistema de dos tanques separados 
+
+$$ R_1 A_1 \left( A_2 \frac{d^2 h_2}{dt^2} + \frac{1}{R_2} \frac{d h_2}{dt} \right) = q_1 - A_2 \frac{d h_2}{dt} - \frac{h_2}{R_2} $$
