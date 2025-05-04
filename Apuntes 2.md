@@ -556,3 +556,32 @@ $$q_1 = A_2 \frac{dh_2}{dt} + \frac{h_2}{R_2}$$
 una vez con la respuesta de q1 lo que haremos es reemplazarlo en la tercera ecuación en todos los términos de q1 teniendo la siguiente respuesta y la respuesta final del sistema de dos tanques separados 
 
 $$ R_1 A_1 \left( A_2 \frac{d^2 h_2}{dt^2} + \frac{1}{R_2} \frac{d h_2}{dt} \right) = q_1 - A_2 \frac{d h_2}{dt} - \frac{h_2}{R_2} $$
+
+## 2 Tanques conectados entre si 
+Para este caso ya no se tiene en cuenta cada tanque por separado pues al analizarlo como un conjunto de tanques lo que obtendremos son ecuaciones correspondientes para los mismos estas ecuaciones son las que nos ayudarán a la hora del análisis de este sistema hidráulico, sus correspondientes ecuaciones son: 
+
+$$ q_1 = \frac{h_1 - h_2}{R_1} $$
+
+$$ A_1 \frac{dh_1}{dt} = q_i - q_1 $$
+
+$$ q_2 = \frac{h_2}{R_2} $$
+
+$$ A_2 \frac{dh_2}{dt} = q_1 - q_2 $$
+
+con estas cuatro ecuaciones fundamentales podremos hacer el análisis algebraico para la solución del sistema de tanques unidos teniendo lo siguiente 
+
+$$ R_2A_2 \frac{dq_2}{dt} = q_1 - q_2 $$
+
+$$ R_2A_2 \frac{dq_2}{dt} + q_2 = q_1 $$
+
+$$ A_1 \frac{dh_1}{dt} = q_i - \left( R_2A_2 \frac{dq_2}{dt} + q_2 \right) $$
+
+$$ R_1q_1 + h_2 = h_1 $$
+
+$$ R_1 \left( R_2A_2 \frac{dq_2}{dt} + q_2 \right) + R_2q_2 = h_1 $$
+
+$$ A_1 \frac{d \left( R_1 \left( R_2A_2 \frac{dq_2}{dt} + q_2 \right) + R_2q_2 \right)}{dt} = q_i - \left( R_2A_2 \frac{dq_2}{dt} + q_2 \right) $$
+
+$$ A_1 \frac{d \left( R_1 \left( R_2 A_2 \frac{d q_2}{d t} + q_2 \right) + R_2 q_2 \right)}{d t} = q_i - \left( R_2 A_2 \frac{d q_2}{d t} - q_2 \right) $$
+
+$$ A_1 R_1 R_2 A_2 \frac{d^2 q_2}{d t^2} + (A_1 R_1 + A_1 R_2 + R_2 A_2) \frac{d q_2}{d t} + q_2 = q_i $$
