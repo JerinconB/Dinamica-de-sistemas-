@@ -409,7 +409,7 @@ $$i(t) = C \frac{dy(t)}{dt}$$
 $$-u(t) + RC \frac{dy(t)}{dt} + LC \frac{d^2y(t)}{dt^2} + y(t) = 0$$
 
 ## Actividad 
-Obtener elodelo para el circuito de la figura 
+Obtener el modelo para el circuito de la figura 
 
 [![Screenshot-2025-05-03-19-28-14-163-com-microsoft-teams-edit.jpg](https://i.postimg.cc/7Lm2R8H7/Screenshot-2025-05-03-19-28-14-163-com-microsoft-teams-edit.jpg)](https://postimg.cc/McfHcLjK)
 
@@ -461,5 +461,39 @@ $$u(t) - \frac{2}{0.5} \frac{dy(t)}{dt} - \frac{1}{0.5} y(t) - 2 \frac{dy(t)}{dt
 Simplificando:
 
 $$u(t) - 6 \frac{dy(t)}{dt} - 2y(t) = 0$$
+
+# Circuitos con amplificadores operacionales 
+### 23/04/2025
+Los circuitos con amplificadores operacionales (op-amps) son muy comunes en electrónica analógica en este caso los analizaremos para hallar sus ecuaciones y ver cómo se comportan sus diferentes configuraciones
+
+## Amplificador no inversor 
+
+[![Screenshot-2025-05-03-19-56-16-132-com-microsoft-teams-edit.jpg](https://i.postimg.cc/cCvtr0gW/Screenshot-2025-05-03-19-56-16-132-com-microsoft-teams-edit.jpg)](https://postimg.cc/H8CkNG9v)
+
+para un analisis ideal de estos circuitos deberemos tener en cuenta que para sus cálculos la tensión en ambas entradas del amplificador son iguales osea v+=v- y las corrientes de entrada en cada una de ellas serán 0, con esto se garantiza una impedancia de entrada grande y una impedancia de salida pequeña
+
+$$i_1 - i_2 = 0$$
+
+$$\frac{e_o - e_i}{R_2} - \frac{e_i}{R_1} = 0$$
+
+$$\frac{e_o}{R_2} = e_i \left( \frac{1}{R_2} + \frac{1}{R_1} \right)$$
+
+$$e_o = e_i \left( 1 + \frac{R_2}{R_1} \right)$$
+
+Este caso sería sin elementos los cuales almacenen energía, a continuación veremos un ejemplo con la misma configuración no inversora pero con un elemento almacenador de energía tal como es el condensador 
+
+[![Screenshot-2025-05-03-20-02-56-379-com-microsoft-teams-edit.jpg](https://i.postimg.cc/85cKZffV/Screenshot-2025-05-03-20-02-56-379-com-microsoft-teams-edit.jpg)](https://postimg.cc/cgqBHHcD)
+
+Su solución es la siguiente
+
+$$i_1 - i_2 - i_3 = 0$$
+
+$$\frac{e_i - e'}{R_1} - \frac{e' - e_o}{R_2} - C \frac{d(e' - e_o)}{dt} = 0$$
+
+$$e' = 0$$
+
+$$\frac{e_i}{R_1} - \frac{-e_o}{R_2} - C \frac{d(-e_o)}{dt} = 0$$
+
+$$\frac{e_i}{R_1} = -\frac{e_o}{R_2} - C \frac{d(e_o)}{dt}$$
 
 
