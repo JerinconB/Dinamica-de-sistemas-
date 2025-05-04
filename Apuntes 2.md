@@ -501,3 +501,10 @@ Obtener el modelo matemático para el siguiente circuito con amplificadores oper
 
 [![Screenshot-2025-05-03-20-08-48-878-com-microsoft-teams-edit.jpg](https://i.postimg.cc/N0Whrw0t/Screenshot-2025-05-03-20-08-48-878-com-microsoft-teams-edit.jpg)](https://postimg.cc/p9Ycg48c)
 
+$$
+\frac{e_i - e'}{R_1} + C \cdot \frac{d(e_i - e')}{dt} - \frac{e' - e_o}{R_2} - C \cdot \frac{d(e' - e_o)}{dt} = 0
+$$
+
+$$
+\frac{e_i}{R_1} + C \cdot \frac{d(e_i)}{dt} + \frac{e_o}{R_2} + C_2 \cdot \frac{d(e_o)}{dt} = 0
+$$
