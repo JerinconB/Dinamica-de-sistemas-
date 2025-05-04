@@ -558,6 +558,9 @@ una vez con la respuesta de q1 lo que haremos es reemplazarlo en la tercera ecua
 $$ R_1 A_1 \left( A_2 \frac{d^2 h_2}{dt^2} + \frac{1}{R_2} \frac{d h_2}{dt} \right) = q_1 - A_2 \frac{d h_2}{dt} - \frac{h_2}{R_2} $$
 
 ## 2 Tanques conectados entre si 
+
+[![Screenshot-2025-05-03-21-44-45-170-com-microsoft-teams-edit.jpg](https://i.postimg.cc/05f8kwyx/Screenshot-2025-05-03-21-44-45-170-com-microsoft-teams-edit.jpg)](https://postimg.cc/K41XQ4Ts)
+
 Para este caso ya no se tiene en cuenta cada tanque por separado pues al analizarlo como un conjunto de tanques lo que obtendremos son ecuaciones correspondientes para los mismos estas ecuaciones son las que nos ayudarán a la hora del análisis de este sistema hidráulico, sus correspondientes ecuaciones son: 
 
 $$ q_1 = \frac{h_1 - h_2}{R_1} $$
