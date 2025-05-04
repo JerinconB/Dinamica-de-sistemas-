@@ -516,3 +516,16 @@ Un sistema hidráulico es un conjunto de componentes interconectados que utiliza
 
 Dónde:
 qi y qo son los flujos de entrada y salida del sistema,R1 es la resistencia al flujo sea una válvula o etc, A1 es el área transversal del tanque y H1 es el nivel de líquido en el tanque 
+
+## Modelo de un solo tanque 
+En estos sistemas no es tan necesario hacer cálculos desde un inicio pues la gran mayoría de ecuaciones ya están esquitas se hace más uso del álgebra para poder hallar un valor en específico, sus ecuaciones son:
+
+Modelo con q_i como entrada y q_1 como salida:
+
+$$ q_1 = \frac{h_1}{R_1} $$
+
+$$ A_1 \frac{dh_1}{dt} = q_i - q_1 $$
+
+$$ h_1 = q_1 \times R_1 $$
+
+$$ R_1 A_1 \frac{dq_1}{dt} = q_i - q_1 $$ 
