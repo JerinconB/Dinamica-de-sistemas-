@@ -18,4 +18,3 @@ $$F_k + F_b = m \cdot \frac{d^2 y}{dt^2}$$
 
 $$k(y - x) + b\left( \frac{dy}{dt} - \frac{dx}{dt} \right) = m \cdot \frac{d^2 y}{dt^2}$$
 
-$$F_F = k_1 \cdot \frac{dy(t)}{dt}$$
