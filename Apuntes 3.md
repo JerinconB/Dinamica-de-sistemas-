@@ -18,3 +18,14 @@ $$F_k + F_b = m \cdot \frac{d^2 y}{dt^2}$$
 
 $$k(y - x) + b\left( \frac{dy}{dt} - \frac{dx}{dt} \right) = m \cdot \frac{d^2 y}{dt^2}$$
 
+### DCL-- Carrito
+
+[![image.png](https://i.postimg.cc/Z5vcd4y1/image.png)](https://postimg.cc/pmxzNNCZ)
+
+En este caso para la solucion veremos que tendremos tres fuerzas que se aplican al carrito, y sabiendo que su aceleracion se va atomar como 0 tendremos que la sumatoria de fuerzas queda de la siguiente manera.
+
+$$U - F_K - F_B = 0$$
+
+$$U - K(y - x) - B(\dot{y} - \dot{x}) = 0$$
+
+
