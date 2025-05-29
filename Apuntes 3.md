@@ -27,5 +27,20 @@ En este caso para la solucion veremos que tendremos tres fuerzas que se aplican 
 $$U - F_K - F_B = 0$$
 
 $$U - K(y - x) - B(\dot{y} - \dot{x}) = 0$$
+## Punto 2
+Para el circuito de la figura hallar la/s ecuaciones diferenciales que permiten obtener la función que describe la corriente en el capacitor de 0.2 F. Seleccione el método de análisis que prefiera o considere más adecuado. Asuma que el circuito está totalmente sin energía en t = 0 y que la fuente de voltaje e(t) es constante. 
 
+[![image.png](https://i.postimg.cc/kX6zhZTp/image.png)](https://postimg.cc/2VY01HRQ)
+
+Para la solucion del ejercicio lo desarrolaremos por mallas ya que nos queda mas facil ver cada ecuacion en este caso desarrolaremos primero la malla 1 que sera la de la izquierda teniendo como consecuente lo sigiente 
+
+$$-e(t) + V_H + V_{200} + V_{50} = 0$$
+
+$$-e(t) + 2\frac{dI_1}{dt} + 200I_1 + 50(I_1 - I_2) = 0$$
+
+y para terminar el ejercicio para tener ambas ecuacuaciones en funcion de la corriente del capacitor tendremos el sigiente analizis para la malla 2 
+
+$$V_{50} + V_{20} + V_C = 0$$
+
+$$50(I_2 - I_1) + 20I_2 + \frac{1}{0.2} \int I_2\, dt = 0$$
 
