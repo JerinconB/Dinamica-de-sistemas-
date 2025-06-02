@@ -80,4 +80,26 @@ Una vez hallado el resultado este deberemos graficarlo en el plano cartesiano, e
 
 [![image.png](https://i.postimg.cc/jjbjvR8X/image.png)](https://postimg.cc/YvdkCBBG)
 
- 
+## Polos en una funcion de transferencia
+En el caso de los polos lo que deberemos hacer es igualar a cero el denomidador de la funcion de transferencia para hallar "S" estos valores tambien puden ser reales o complejos esto con la facilidad de poderlos graficar en el plano cartesiano
+
+### ¿Por qué son importantes los polos?
+Los polos determinan el comportamiento dinámico del sistema:
+
+-Si los polos están en el semiplano izquierdo del plano complejo (tienen parte real negativa), el sistema es estable.
+
+-Si uno o más polos están en el semiplano derecho (parte real positiva), el sistema es inestable.
+
+-Si hay polos en el eje imaginario (parte real cero), el sistema puede ser marginalmente estable o inestable, dependiendo del caso.
+
+$$G(s) = \frac{Y(s)}{U(s)} = \frac{3s - 1}{s^2 + 3s + 2} = \frac{N(s)}{D(s)}$$
+
+$$D(s) = 0$$
+
+$$s^2 + 3s + 2 = 0$$
+
+$$(s + 1)(s + 2) = 0$$
+
+$$s = -1$$
+
+$$s = -2$$
