@@ -92,6 +92,8 @@ Los polos determinan el comportamiento dinámico del sistema:
 
 -Si hay polos en el eje imaginario (parte real cero), el sistema puede ser marginalmente estable o inestable, dependiendo del caso.
 
+### Ejemplo
+
 $$G(s) = \frac{Y(s)}{U(s)} = \frac{3s - 1}{s^2 + 3s + 2} = \frac{N(s)}{D(s)}$$
 
 $$D(s) = 0$$
@@ -103,3 +105,9 @@ $$(s + 1)(s + 2) = 0$$
 $$s = -1$$
 
 $$s = -2$$
+
+La ubuicacion de los polos es muy similar ala de los zeros, solo que en este caso tendremos que demarcarlos con una X en el plano carteciano esto lo podremos ver en la sigiente imagen 
+
+[![image.png](https://i.postimg.cc/BvGtxqDQ/image.png)](https://postimg.cc/LJNHSFNr)
+
+
