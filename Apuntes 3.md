@@ -306,3 +306,38 @@ $$ \frac{\tau_2}{\tau_1} = \frac{N_2}{N_1} $$
 
 $$ \frac{N_2}{N_1} = -\frac{\theta_1}{\theta_2} $$
 
+J y Km cambian si se tiene en cuenta el efecto de los engranajes o poleas 
+
+$$ \Theta(s) = \frac{K_m V_c(s)}{(s L_c + R_c)(J s^2 + b s)} - \frac{T_p(s)}{J s^2 + b s} $$
+
+$$ \frac{\Theta(s)}{V_c(s)} = \frac{K_m}{(s L_c + R_c)(J s^2 + b s)} $$
+
+y sus diagramas de bloques son los siguientes 
+
+[![image.png](https://i.postimg.cc/8kH3LTfp/image.png)](https://postimg.cc/rzDQkX93)
+
+## Transmicion rotacional a lineal 
+Sistemas que convierten movimiento de rotación (angular) en movimiento lineal (traslacional), fundamentales en aplicaciones mecánicas y de control.
+
+Piñón-Cremallera
+
+Ecuación:
+
+$$x=rθ$$
+
+x: Desplazamiento lineal [m]
+
+r: Radio del piñón [m]
+
+θ: Ángulo rotado [rad]
+
+[![image.png](https://i.postimg.cc/Z5VrJKRQ/image.png)](https://postimg.cc/dhZ7BFGR)
+
+## Palancas
+Una palanca como sistema dinámico es un sistema mecánico que transforma una entrada (una fuerza o par aplicado en un punto) en una salida (desplazamiento, velocidad o fuerza en otro punto), a través de la interacción de masas, inercias y torques. Este sistema puede modelarse usando las leyes de la dinámica rotacional.
+
+[![image.png](https://i.postimg.cc/15KFK5pz/image.png)](https://postimg.cc/ykkW1Kpq)
+
+$$-\frac{f_{2}}{f_{1}} = \frac{d_{1}}{d_{2}}$$
+
+$$\frac{d_{1}}{d_{2}} = -\frac{x_{1}}{x_{2}}$$
