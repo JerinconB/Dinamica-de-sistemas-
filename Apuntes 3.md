@@ -44,7 +44,7 @@ $$V_{50} + V_{20} + V_C = 0$$
 
 $$50(I_2 - I_1) + 20I_2 + \frac{1}{0.2} \int I_2\, dt = 0$$
 
-### Clasificacion de las funciones de transferencia --- 14/05/2025
+# Clasificacion de las funciones de transferencia --- 14/05/2025
 ### Fucnion de transferencia 
 Una función de transferencia es una herramienta matemática que se utiliza en ingeniería y control de sistemas para describir la relación entre la entrada y la salida de un sistema dinámico lineal, en el dominio de Laplace.
 
@@ -226,7 +226,7 @@ En la mayoria de los libros lo representan de esta monera tal y como sale en la 
 
 Estos moteores DC tienen dos formas de modelamiento una de ellas es por corriente de campo y la otra por corriente de armadura.
 
-### Corriente de campo 
+## Corriente de campo 
 como podemos ver en la imagen anterior cada una tiene su nomenclatura diferente teniendo que la sub c es corriente de campo osea la misma corriente del rotor, y para poder ayudarnos alas ecuaciones del modelamiento asumiremos que la corriente de armadura va hacer constante teniendo lo siguiente 
 
 $$ V_{C}(t) = V_{Rc} + V_{Lc} $$
@@ -265,5 +265,44 @@ y su respectivo diagrama de bloques quedaria asi
 
 ![image](https://github.com/user-attachments/assets/5045fb1c-5f04-45b7-932e-39429fbaae0b)
 
+## Corriente de armadura 
+Para el analizis de un motor DC por corriente de armadura en este caso tendremos en cuenta pasos del de corriente de campo mas sin embargo lo que aremos en esta ocacion para la facicilidad de los calculos es asumir en este caso la corriente de campo constante teniendo que:
 
+$$T_m(s) = (K_a K_c I_c) I_a(s) = K_m I_a(s)$$
+
+Con esto vemos que la corriente de armadura se relaciona con el voltaje aplicado la armadura por 
+
+$$V_a(s) = (sL_a + R_a) I_a(s) + V_b(s)$$
+
+El voltaje inducido por la armadura es proporcinal a la velocidad angular del eje y sabiendo que $V_b$ es
+
+$$V_b(s) = K_b \omega(s)$$
+
+Tendremos que: 
+
+$$V_a(s) = (sL_a + R_a) I_a(s) + V_b(s)$$
+
+Combinando estas ecuaciones se obtiene lo sigiente que es la corriente en la armadura 
+
+$$I_a(s) = \frac{V_a(s) - K_b \omega(s)}{sL_a + R_a}$$
+
+Para la parte mecanica vemos que en este caso se comporta de la misma manera que para el modelamiento anterio un sistema rotacional simple y ya sabiendo lo anterior supondremos que:
+
+$$ T_{C}(s) = T_{m}(s) - T_{p}(s) $$
+
+$$ \Theta(s) = T_{C}(s) \frac{1}{J s^2 + b s} $$
+
+Teniendo como resultado el sigiente diagrama de bloques 
+
+[![image.png](https://i.postimg.cc/gJWHr6YY/image.png)](https://postimg.cc/1gvqjXnT)
+
+## Elementos transmisores de energia 
+### Engranajes y poleas 
+Los engranajes son mecanismos compuestos por ruedas dentadas que transmiten movimiento rotacional y par mecánico entre ejes, modificando la velocidad, torque o dirección del movimiento, y las poleas son sistemas que transmiten movimiento y fuerza mediante correas o cables que recorren una rueda acanalada, ideal para ejes separados.
+
+[![image.png](https://i.postimg.cc/J423ZF1Y/image.png)](https://postimg.cc/ppKntq5K)
+
+$$ \frac{\tau_2}{\tau_1} = \frac{N_2}{N_1} $$
+
+$$ \frac{N_2}{N_1} = -\frac{\theta_1}{\theta_2} $$
 
