@@ -254,3 +254,16 @@ En el caso de la parte mecanica del motor DC esta se comporta como un sistema ro
 $$ J \frac{d^2 \theta}{dt^2} + b \frac{d\theta}{dt} + k \theta = \tau(t) $$
 
 $$ \Theta(s) = T_c(s) \frac{1}{s^2 J + b s} $$
+
+La coneccion de los modelos obtenidos de cada uno de los pasos se realizara de la sigiente manera 
+
+$$\Theta(s) = V_c(s) \frac{K_m}{(sL_c + R_c)(Js^2 + bs)} - T_p(s) \frac{1}{(Js^2 + bs)}$$
+
+$$\frac{\Theta(s)}{V_c(s)} = \frac{K_m}{(sL_c + R_c)(Js^2 + bs)}$$
+
+y su respectivo diagrama de bloques quedaria asi 
+
+![image](https://github.com/user-attachments/assets/5045fb1c-5f04-45b7-932e-39429fbaae0b)
+
+
+
