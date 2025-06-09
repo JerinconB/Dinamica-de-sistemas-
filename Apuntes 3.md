@@ -195,7 +195,7 @@ Expresión matemática:
 
 $$\mathcal{L}\{r(t)\} = \frac{A}{s^3}$$
 
-### Modelamiento de sistemas complejos --- 21/05/2025
+# Modelamiento de sistemas complejos --- 21/05/2025
 Podemos modelar sistemas si los representamos como un todo hallando las funciones de transferencia de cada uno de los componentes del sistema analizado, por otra parte seria utilizar modelos que ya estan desarrollados para poder construir modelos mas complejos, mas sin embargo aparte de estos dos sistemas de modelamiento hay muchos tipos mas de modelamiento para los diferentes dispositivos 
 
 ## Soleniode 
@@ -208,3 +208,49 @@ $$ L \frac{di}{dt} + R \, i = \nu(t) \quad \text{y} \quad I(s) = V(s) \frac{1}{L
 El electroiman produce una fuerza mecanica proporcional a la corriente en el embobonado teniendo las sigientes ecuaciones 
 
 $$ f_{, \bar s} = K_{, \bar s}i \quad \text{y} \quad F_{, \bar s}(s) = K_{, \bar s}\,I(s) $$
+
+El electroiman atrae una masa acopladapor medio de un resorte y se considera el amortiguamiento dada por la bobina 
+
+$$m\frac{d^{\,2}\,x}{dt^{\,2}} + b\,\frac{dx}{dt} + k\,x = f(t)$$
+
+$$X(s) = \frac{F(s)}{m\,s^{\,2} + b\,s + k}$$
+
+Con esto ya tendriamos para poder representarlo en un diagrama de bloques posicionando cada uno de ellos y organizandolo para que nos quede reducido, para este caso seria el sigiente diagrama 
+
+[![image.png](https://i.postimg.cc/sg6JxS5C/image.png)](https://postimg.cc/HrMMPrS6)
+
+## Motor DC
+En la mayoria de los libros lo representan de esta monera tal y como sale en la imgagen donde popdemos ver la parte movil y su parte estatica teniendo en el medio la transformacion de energia electrica en mecanica 
+
+[![image.png](https://i.postimg.cc/nLPL5VBJ/image.png)](https://postimg.cc/2qnmLD0c)
+
+Estos moteores DC tienen dos formas de modelamiento una de ellas es por corriente de campo y la otra por corriente de armadura.
+
+### Corriente de campo 
+como podemos ver en la imagen anterior cada una tiene su nomenclatura diferente teniendo que la sub c es corriente de campo osea la misma corriente del rotor, y para poder ayudarnos alas ecuaciones del modelamiento asumiremos que la corriente de armadura va hacer constante teniendo lo siguiente 
+
+$$ V_{C}(t) = V_{Rc} + V_{Lc} $$
+
+$$ L_C\frac{di_C}{dt} + R_C i_C = \nu_C(t) $$
+
+$$ I_C(s) = \frac{V_C(s)}{s L_C + R_C} $$
+
+Al tener este tipo de modelamiento veremos que aparece una asignacion la cual es el flujo en el entrehierrro el cual va hacer proporcional ala corriente de campo teniendo que:
+
+$$\Phi = K_c i_c$$
+
+Con esto podremos comenzar a analizar el torque proporcionado por el motor 
+
+$$T_m = K_a i_a(t) K_c i_c(t)$$
+
+$$T_m(s) = (K_a K_c I_a) I_c(s) = K_m I_c(s)$$
+
+El torque aplicado a la carga que queramos levantar es el desarrollado por el motor menos la inercia de la carga 
+
+$$T_c(s) = T_m(s) - T_p(s)$$
+
+En el caso de la parte mecanica del motor DC esta se comporta como un sistema rotacional clasico que considera la inercia y la friccion mecanica teniendo lo siguiente 
+
+$$ J \frac{d^2 \theta}{dt^2} + b \frac{d\theta}{dt} + k \theta = \tau(t) $$
+
+$$ \Theta(s) = T_c(s) \frac{1}{s^2 J + b s} $$
