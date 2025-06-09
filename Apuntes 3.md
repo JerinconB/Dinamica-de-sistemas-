@@ -110,4 +110,39 @@ La ubuicacion de los polos es muy similar ala de los zeros, solo que en este cas
 
 [![image.png](https://i.postimg.cc/BvGtxqDQ/image.png)](https://postimg.cc/LJNHSFNr)
 
+## Ubicacion General de los polos 
+[![image.png](https://i.postimg.cc/jSXNBvwH/image.png)](https://postimg.cc/4YYm961y)
+
+### Polos complejos conjugados
+Representados como un par de “X” simétricas respecto al eje real.
+
+Tienen la forma:
+
+$$s = \sigma \pm j\omega$$
+
+donde:
+
+𝜎 es la parte real (negativa en sistemas estables).
+
+𝜔 es la frecuencia imaginaria.
+
+Característica: generan una respuesta oscilatoria amortiguada.
+
+### Polos reales diferentes
+Ubicados sobre el eje real (horizontal), pero en posiciones distintas.
+
+Tienen la forma:
+
+$$s = s_1, \quad s = s_2 \quad \text{con} \quad s_1 \ne s_2, \quad s_1, s_2 \in \mathbb{R}$$
+
+Característica: producen una respuesta compuesta por dos exponentes reales negativos (si el sistema es estable).
+
+### Polos reales iguales (repetidos)
+Ubicados sobre el eje real en el mismo punto.
+
+Tienen la forma:
+
+$$s = s_0 \quad \text{con multiplicidad} > 1$$
+
+Característica: generan una respuesta del tipo $t^n e^{s_0 t}$ , más lenta que polos reales simples.
 
