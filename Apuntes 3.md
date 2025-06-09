@@ -44,7 +44,7 @@ $$V_{50} + V_{20} + V_C = 0$$
 
 $$50(I_2 - I_1) + 20I_2 + \frac{1}{0.2} \int I_2\, dt = 0$$
 
-## Clasificacion de las funciones de transferencia --- 14/05/2025
+### Clasificacion de las funciones de transferencia --- 14/05/2025
 ### Fucnion de transferencia 
 Una función de transferencia es una herramienta matemática que se utiliza en ingeniería y control de sistemas para describir la relación entre la entrada y la salida de un sistema dinámico lineal, en el dominio de Laplace.
 
@@ -146,3 +146,65 @@ $$s = s_0 \quad \text{con multiplicidad} > 1$$
 
 Característica: generan una respuesta del tipo $t^n e^{s_0 t}$ , más lenta que polos reales simples.
 
+## Teorema del valor final 
+El Teorema del Valor Final es una herramienta en el análisis de sistemas dinámicos (especialmente en el dominio de Laplace) que permite encontrar el valor al que tiende una función en el tiempo cuando t→∞, usando su transformada de Laplace.
+
+$$\lim_{t \to \infty} f(t) = \lim_{s \to 0} s F(s)$$
+
+### Ejemplo 
+
+$$G(s) = \frac{Y(s)}{U(s)} = \frac{4}{5s + 1}$$
+
+$$Y(s) = \frac{4 \ast U(s)}{5s + 1}$$
+
+Si la entrada es un escalón:
+
+$$Y(s) = \frac{\frac{4}{s}}{5s + 1}$$
+
+Teorema del valor final:
+
+$$\lim_{s \to 0} sY(s) = \lim_{s \to 0} s \cdot \frac{\frac{4}{s}}{5s + 1}$$
+
+$$\lim_{s \to 0} \frac{4}{5s+1} = 4$$
+
+## Entradas de prueba de un sistema 
+En este caso la solución de una ecuación diferencial depende de la entrada, la respuesta de un sistema también.
+
+Es muy difícil conocer las señales que están ocurriendo en un sistema, ya que depende de muchos factores como ruido, tipo de señales, ambiente, entre otros, además, el sistema de control debe diseñarse para que funcione ante cualquier señal.
+
+En control, se utilizan diferentes tipos de señales de prueba para evaluar el desempeño de un sistema.
+
+### Entrada escalon 
+Un cambio abrupto en la entrada desde cero a un valor constante A en t=0, Evalúa la respuesta transitoria y el error en estado estacionario de un sistema (ej: tiempo de asentamiento, sobrepico).
+
+Expresión matemática:
+
+$$\mathcal{L}(u(t)) = \frac{A}{s}$$
+
+### Entrada Rampa 
+Una señal que aumenta linealmente con el tiempo, Analiza la capacidad del sistema para seguir señales que cambian continuamente (ej: sistemas de seguimiento como radares o motores).
+
+Expresión matemática:
+
+$$\mathcal{L}\{x(t)\} = \frac{A}{s^2}$$
+
+### Entrada Parabola
+Una señal que varía cuadráticamente con el tiempo, Estudia sistemas que requieren alta precisión para aceleraciones (ej: cohetes, satélites).
+
+Expresión matemática:
+
+$$\mathcal{L}\{r(t)\} = \frac{A}{s^3}$$
+
+### Modelamiento de sistemas complejos --- 21/05/2025
+Podemos modelar sistemas si los representamos como un todo hallando las funciones de transferencia de cada uno de los componentes del sistema analizado, por otra parte seria utilizar modelos que ya estan desarrollados para poder construir modelos mas complejos, mas sin embargo aparte de estos dos sistemas de modelamiento hay muchos tipos mas de modelamiento para los diferentes dispositivos 
+
+## Soleniode 
+Un solenoide es un dispositivo electromecánico que convierte energía eléctrica en movimiento mecánico lineal mediante un campo electromagnético. 
+
+[![image.png](https://i.postimg.cc/1zQ3pN9f/image.png)](https://postimg.cc/k2TCCGRm)
+
+$$ L \frac{di}{dt} + R \, i = \nu(t) \quad \text{y} \quad I(s) = V(s) \frac{1}{L \, s + R} $$
+
+El electroiman produce una fuerza mecanica proporcional a la corriente en el embobonado teniendo las sigientes ecuaciones 
+
+$$ f_{, \bar s} = K_{, \bar s}i \quad \text{y} \quad F_{, \bar s}(s) = K_{, \bar s}\,I(s) $$
