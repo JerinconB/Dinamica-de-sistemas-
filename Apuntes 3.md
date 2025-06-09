@@ -341,3 +341,6 @@ Una palanca como sistema dinámico es un sistema mecánico que transforma una en
 $$-\frac{f_{2}}{f_{1}} = \frac{d_{1}}{d_{2}}$$
 
 $$\frac{d_{1}}{d_{2}} = -\frac{x_{1}}{x_{2}}$$
+
+# Algebra de bloques --- 28/05/2025
+
