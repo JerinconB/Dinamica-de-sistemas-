@@ -371,5 +371,71 @@ Para los bloques los veremos como una multiplicacion de su entrada por la ecuaci
 $$ Y(s)=U(s)*G(s) $$
 
 ## Bloques en cascada 
-Es cuando tenemos una combinacion
+Es cuando tenemos una combinacion de dos o mas bloques seguidos o en serie es ton el fin de operarlos y reducir el sistme a aun solo bloque 
+
+[![image.png](https://i.postimg.cc/gjtDcVGn/image.png)](https://postimg.cc/jnNNZJwb)
+
+$$Y_1(s) = U_1(s) G_1(s)$$
+
+$$Y_2(s) = U_2(s) G_2(s)$$
+
+Teniendo lo anterior veremos que la entrada del segundo bloque es la salida del primero por lo cual esta señal es la misma esto nos ayudara a simplificar y poder operar el resto teniendo en cuenta las entradas y las salidas analizadas del sistema 
+
+$$Y_2(s) = Y_1(s) G_2(s)$$
+
+$$Y_2(s) = U_1(s) G_1(s) G_2(s)$$
+
+Con esto se reduce el sistema al siguiente diagrama de bloques 
+
+![image](https://github.com/user-attachments/assets/d8545cce-8ca5-48b4-a021-57f6a552eb44)
+
+Este es uno de los casos mas sencillos e intutibos mas sinembargo hay muchas combinaciones de estos diagramas de bloques para ello hay tablas comprobadas para la solucion de cierto bloques 
+
+[![image.png](https://i.postimg.cc/VLSTr6p3/image.png)](https://postimg.cc/bshL4zzT)
+
+## Lazo de realimentacion positivo
+
+[![image.png](https://i.postimg.cc/7LQtZrXx/image.png)](https://postimg.cc/bGk9mMKM)
+
+$$E(s) = X(s) + Y_1(s)$$
+
+$$Y(s) = E(s) G_1(s)$$
+
+$$Y_1(s) = Y(s) G_2(s)$$
+
+$$Y(s) = (X(s) + Y_1(s)) G_1(s)$$
+
+$$Y(s) = (X(s) + Y(s) G_2(s)) G_1(s)$$
+
+$$Y(s) = (X(s) G_1(s) + Y(s) G_2(s) G_1(s))$$
+
+$$Y(s) - Y(s) G_2(s) G_1(s) = X(s) G_1(s)$$
+
+$$Y(s)(1 - G_2(s) G_1(s)) = X(s) G_1(s)$$
+
+$$\frac{Y(s)}{X(s)} = \frac{G_1(s)}{1 - G_2(s) G_1(s)}$$
+
+## Lazo de realimentacion negativo
+
+[![image.png](https://i.postimg.cc/YSqgy469/image.png)](https://postimg.cc/pm4pmL1b)
+
+$$E(s) = X(s) - Y(s) G_2(s)$$
+
+$$Y(s) = E(s) G_1(s)$$
+
+$$Y(s) = \left( X(s) - Y(s) G_2(s) \right) G_1(s)$$
+
+$$Y(s) = X(s) G_1(s) - Y(s) G_2(s) G_1(s)$$
+
+$$Y(s) + Y(s) G_2(s) G_1(s) = X(s) G_1(s)$$
+
+$$Y(s) \left(1 + G_2(s) G_1(s)\right) = X(s) G_1(s)$$
+
+$$\frac{Y(s)}{X(s)} = \frac{G_1(s)}{1 + G_2(s) G_1(s)}$$
+
+
+
+
+
+
 
