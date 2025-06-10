@@ -452,3 +452,28 @@ $$\frac{Y(s)}{X_1(s)} = G_3 \left( G_1 - G_2 \right)$$
 
 $$\frac{Y(s)}{X_2(s)} = \left( G_4 - 1 \right)$$
 
+# Diagrama de flujo de señales --- 4/6/2025
+Este tipo de diagramas permite otra forma de representacion de los sistemas mas complejos para analizar las respuestas de los diagramas de bloques, con este podemos obtener mas sencillamente la funcion de transferencia total del sistema, gracias ala formula de mason que esta hecha para los sistemas mas complejos 
+
+## Elementos de los diagramas de flujo de señal 
+### Nodo
+Estos representan las señales de entrada o salida del sistema, se representa por medio de un punto con el nombre de la señal puede ser en blanco o en negro 
+
+[![image.png](https://i.postimg.cc/t4PpQDzv/image.png)](https://postimg.cc/Snywc63c)
+
+### Flecha 
+Representa la relación entre las variables del sistema
+
+Se representa por medio de flechas que indicando el sentido de la relación
+
+La fleche sale de la señal (Nodo) de entrada y llega a la señal de salida (Nodo)
+
+Se agrega una etiqueta a la flecha para indicar la función de transferencia que relaciona la entrada y la salida
+
+[![image.png](https://i.postimg.cc/zBGsBknr/image.png)](https://postimg.cc/1gbC7wCC)
+
+## Interpretacion 
+
+[![image.png](https://i.postimg.cc/vZwC9yWX/image.png)](https://postimg.cc/0bZtRLXJ)
+
+vemos que cuando es directo se representa por medio de un producto entre lo que esta en la flecha por lo que entra a la flecha esto nos dara el valor de salida, y cuando varias flechas entran a un solo punto estas funciones se suman
