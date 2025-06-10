@@ -433,9 +433,22 @@ $$Y(s) \left(1 + G_2(s) G_1(s)\right) = X(s) G_1(s)$$
 
 $$\frac{Y(s)}{X(s)} = \frac{G_1(s)}{1 + G_2(s) G_1(s)}$$
 
+## Reduccion de bloques 
+Aqui veremos el comportamioento de la tabla mostrada anteriormente para la reduccion de un diagrama de bloques esto se hace con el fin de ver la salida sobre alguna entrada en espesifico en este ejemplo veremos un diagrama de bloque el cual tiene dos entradas y una salida y analizaremos esas dos posibles funciones 
 
+[![image.png](https://i.postimg.cc/G3sDNnyk/image.png)](https://postimg.cc/4nsn7Mwd)
 
+Para el caso poderemos simplificar la primera parte que es la reduccion de G1 y G2 obtenienmdo otro diagrama de bloques para operar, y operaremos la parte de abajo moviendo el punto suma para eliminarlo
 
+[![image.png](https://i.postimg.cc/9XT4bP6b/image.png)](https://postimg.cc/kDJXXSXR)
 
+En este caso vemos que nos quedan dos bloque en serie o segidos, estos los podremos operar como habiamos visto en un principio paara que nos vuelva a quedar un solo bloque
 
+[![image.png](https://i.postimg.cc/0jqyF3Tf/image.png)](https://postimg.cc/ygvKSfYg)
+
+Con esto se da fin al ejercicio obteniendo los dos posibles caminos para hallar las funciones de transferencia correspondientes a cada entrada las cuales son 
+
+$$\frac{Y(s)}{X_1(s)} = G_3 \left( G_1 - G_2 \right)$$
+
+$$\frac{Y(s)}{X_2(s)} = \left( G_4 - 1 \right)$$
 
