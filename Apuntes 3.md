@@ -343,4 +343,33 @@ $$-\frac{f_{2}}{f_{1}} = \frac{d_{1}}{d_{2}}$$
 $$\frac{d_{1}}{d_{2}} = -\frac{x_{1}}{x_{2}}$$
 
 # Algebra de bloques --- 28/05/2025
+El álgebra de bloques es una técnica gráfica y analítica utilizada en ingeniería de control y sistemas dinámicos para representar, simplificar y analizar diagramas de bloques interconectados. Permite reducir sistemas complejos a una función de transferencia equivalente mediante reglas algebraicas.
+
+### Elementos de un diagrama de bloques 
+Bloque funcional: es un simbolo para representar la operacion matematica aplicada ala señal de entrada esto con el fin de ver la salida optenida despues de la operacion su simbolo en el diagrama es el siguiente 
+
+[![image.png](https://i.postimg.cc/vHYxqw8H/image.png)](https://postimg.cc/23t5yJBP)
+
+### Flechas
+Estas son muy importantes ya que representan las señales dentro del proceso esta solo puede pasar por una direccion, es de total importancia asegurarse en que sentido va la flecha y hacia que bloque se dirique a si sabremos la dispocicion del diagrama 
+
+### Punto suma 
+Este bloque es el encargado de hacernos operaciones especificamente una suma o una resta entre señales unicamente, NO bloques, depende de donde este ubicada la señal y el signo deberemos realizar una operacion o la otra, es importante que las cantidades que se sumen o resten tengan las mismas dimenciones y las mismas unidades.
+
+[![image.png](https://i.postimg.cc/zXHY1VGd/image.png)](https://postimg.cc/MvwF7ZRR)
+
+### Ramificacion 
+Es un punto donde la señal de un bloque va de modo concurrente a otros bloques o puntos de suma este punto hace que se repita la señal para diferentes calculos 
+
+[![image.png](https://i.postimg.cc/4d2qDgkk/image.png)](https://postimg.cc/qhn1KWvj)
+
+## Interpretacion del diaagrama 
+Para los bloques los veremos como una multiplicacion de su entrada por la ecuacion o funcion que este dentro de el bloque acontinuacion una representacion grafica en donde veremos que la salida del sistema Y(s) en el producto de la entrada U(s) y la funcion del bloque G(s)
+
+[![image.png](https://i.postimg.cc/8zyYJGcF/image.png)](https://postimg.cc/FYLp82jm)
+
+$$ Y(s)=U(s)*G(s) $$
+
+## Bloques en cascada 
+Es cuando tenemos una combinacion
 
