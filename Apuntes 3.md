@@ -530,3 +530,52 @@ $$\Delta_1 = 1$$
 ### Solucion 
 
 $$\frac{C(s)}{R(s)} = \frac{P_1 \Delta_1}{\Delta} = \frac{G_1 G_2 G_3}{1 - G_1 G_2 H_1 + G_2 G_3 H_2 + G_1 G_2 G_3}$$
+
+## Ejemplo 2
+
+[![image.png](https://i.postimg.cc/0QsZMbtw/image.png)](https://postimg.cc/R3gw2VxS)
+
+### Ganancias de trayectoria directa
+
+$$P_1 = G_1 G_2 G_3 G_4 G_5$$
+
+$$P_2 = G_1 G_6 G_4 G_5$$
+
+$$P_3 = G_1 G_2 G_7$$
+
+### Lazos Cerrados
+
+$$L_1 = -G_4 H_1$$
+
+$$L_2 = -G_2 G_7 H_2$$
+
+$$L_3 = -G_6 G_4 G_5 H_2$$
+
+$$L_4 = -G_2 G_3 G_4 G_5 H_2$$
+
+### Determinante y cofactores
+
+$$\Delta = 1 - (L_1 + L_2 + L_3 + L_4) + L_1 L_2$$
+
+$$\Delta_1 = 1$$
+
+$$\Delta_2 = 1$$
+
+$$\Delta_3 = 1 - L_1$$
+
+### Solucion
+
+$$\frac{C(s)}{R(s)} = \frac{1}{\Delta} (P_1 \Delta_1 + P_2 \Delta_2 + P_3 \Delta_3)$$
+
+% Expresión final expandida del resultado:
+
+$$\frac{G_1 G_2 G_3 G_4 G_5 + G_1 G_6 G_4 G_5 + G_1 G_2 G_7 (1 + G_4 H_1)}{1 + G_4 H_1 + G_2 G_7 H_2 + G_6 G_4 G_5 H_2 + G_2 G_3 G_4 G_5 H_2 + G_4 H_1 G_2 G_7 H_2}$$
+
+## Resumen 
+• Los diagramas de flujo de señales facilitan la reducción de diagramas que representan sistemas complejos.
+
+• La reducción de diagramas de bloques requiere experiencia en la aplicación de las propiedades para aplicarlas en sistemas con alta complejidad.
+
+• Los diagramas de flujo de señales utilizan la fórmula de Mason para que sea más sistemática la reducción de los diagramas.
+
+• Los circuitos con amplificadores operacionales permiten realizar pruebas de cualquier Sistema a partir de su modelo.
