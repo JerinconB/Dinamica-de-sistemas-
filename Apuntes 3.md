@@ -477,3 +477,56 @@ Se agrega una etiqueta a la flecha para indicar la función de transferencia que
 [![image.png](https://i.postimg.cc/vZwC9yWX/image.png)](https://postimg.cc/0bZtRLXJ)
 
 vemos que cuando es directo se representa por medio de un producto entre lo que esta en la flecha por lo que entra a la flecha esto nos dara el valor de salida, y cuando varias flechas entran a un solo punto estas funciones se suman
+
+## Comparacion entre diagrama de bloques y flujo de señales 
+Como nos podemos dar cuenta manejan varias similitudees pues de un diagrama podemos interpretal el otro ya que tienen representados de diferente manera los mismos cuadros y conectores a continuacion una imagen en donde se ve relacionado lo dicho anterior 
+
+[![image.png](https://i.postimg.cc/DyMFKTZG/image.png)](https://postimg.cc/Vdn2j2Xs)
+
+Para el diagrama de flujo tendremos que tener en cuenta varias definiciones las cuales nos ayudaren al desarrollo de estos ejercicios los cuales son:
+
+• Ganancia de lazo: La ganancia de lazo es el producto de las ganancias de ramas de un lazo.
+
+• Trayecto o camino directo: Trayecto directo es el camino o trayecto de un nodo de entrada a un nodo de salida, sin cruzar ningún nodo más de una vez.
+
+• Ganancia de trayecto directo: La ganancia de trayecto directo es el producto de las ganancias de rama de un camino o trayecto directo.
+
+• Lazo: Un lazo es un camino o trayecto cerrado.
+
+• Ganancia de lazo: La ganancia de lazo es el producto de las ganancias de ramas de un lazo.
+
+## Formula de Mason 
+
+$$P = \frac{1}{\Delta} \sum_k P_k \Delta_k$$
+
+• $P_k$ Ganancia de los caminos directos
+
+• Δ = 1 − (suma ganancias de los lazos) + (suma producto de 2 lazos que no se tocan) –(suma producto de 3 lazos que no se tocan)+…
+
+• Δ𝑘 = 1 −(suma ganancias lazos que no toquen la trayectoria 𝑃𝑘)+(suma ganancias 2 lazos que no toquen la trayectoria 𝑃𝑘 y no se toquen entre sí)-(suma ganancias 3 lazos que no toquen la trayectoria 𝑃𝑘 y no se toquen entre sí)+…
+
+## Ejemplo
+
+[![image.png](https://i.postimg.cc/bN30y6ck/image.png)](https://postimg.cc/3d009Fwx)
+
+### Trayectoria directa
+
+$$P_1 = 1 \cdot 1 \cdot G_1 \cdot G_2 \cdot G_3 \cdot 1 = G_1 G_2 G_3$$
+
+### Lazos Cerrados 
+
+$$L_1 = G_1 G_2 H_1$$
+
+$$L_2 = -G_2 G_3 H_2$$
+
+$$L_3 = -G_1 G_2 G_3$$
+
+### Determinante y cofactores
+
+$$\Delta = 1 - (L_1 + L_2 + L_3)$$
+
+$$\Delta_1 = 1$$
+
+### Solucion 
+
+$$\frac{C(s)}{R(s)} = \frac{P_1 \Delta_1}{\Delta} = \frac{G_1 G_2 G_3}{1 - G_1 G_2 H_1 + G_2 G_3 H_2 + G_1 G_2 G_3}$$
